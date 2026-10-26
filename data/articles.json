@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-02T12:33:40.441686+00:00",
+  "collected_at": "2026-11-02T12:34:59.500733+00:00",
   "feeds": [
     "https://news.mit.edu/rss/topic/artificial-intelligence2",
     "https://news.mit.edu/rss/topic/machine-learning",
@@ -23,7 +23,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "3dbc47c31caae532",
@@ -46,8 +49,12 @@
           "url": "https://doi.org/10.48550/arxiv.2509.18446",
           "title": "Large-Scale, Longitudinal Study of Large Language Models During the 2024 US Election Season",
           "references": [],
-          "openalex_id": "https://openalex.org/W4416257879"
+          "openalex_id": "https://openalex.org/W4416257879",
+          "linked_url": "https://arxiv.org/abs/2509.18446"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
       ]
     },
     {
@@ -65,7 +72,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "9eab77713c3920c6",
@@ -86,7 +96,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "f6bcb634209c36de",
@@ -103,7 +117,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "a4c5f32431d10496",
@@ -120,7 +137,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "303db39c14fcfc30",
@@ -137,7 +157,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "6b7380afc5963ae9",
@@ -154,7 +177,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "000b68dcd1349dc1",
@@ -175,7 +201,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "5f1dd60d45c3c1d2",
@@ -202,8 +232,13 @@
           "url": "https://doi.org/10.1145/3830398.3830598",
           "title": "X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing",
           "references": [],
-          "openalex_id": "https://openalex.org/W7212310907"
+          "openalex_id": "https://openalex.org/W7212310907",
+          "linked_url": "http://arxiv.org/abs/2609.11077"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -225,7 +260,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "9692486eeb77934b",
@@ -246,7 +285,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "bd03643a45398d75",
@@ -263,7 +306,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "2bc7550860128a48",
@@ -280,7 +326,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "38a125a6c95bf334",
@@ -301,7 +350,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "6961d7c2dc9bbc85",
@@ -318,7 +371,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "40c8137255fe9e48",
@@ -339,7 +395,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "08d1bb7044624eeb",
@@ -360,7 +420,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "e2c278ab2328153d",
@@ -377,7 +441,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "86d056a4b8dd3b41",
@@ -394,7 +461,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "2f2b75ba2a94fb2d",
@@ -411,7 +481,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "4564112263663773",
@@ -432,7 +505,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "eb7eb8762462fed1",
@@ -449,7 +526,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "d64d5a2b545447f7",
@@ -470,7 +550,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "d2180633b0558666",
@@ -487,7 +571,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "caed2b7e642ba54e",
@@ -504,7 +591,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "bebca6424b0efee5",
@@ -525,7 +615,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "5433625968f5adcb",
@@ -542,7 +636,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "59d88ee0fd4c3ec0",
@@ -559,7 +656,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "02c744c8cb64f92f",
@@ -586,8 +686,13 @@
           "url": "https://doi.org/10.1145/3830398.3830647",
           "title": "InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
           "references": [],
-          "openalex_id": "https://openalex.org/W7204782216"
+          "openalex_id": "https://openalex.org/W7204782216",
+          "linked_url": "https://arxiv.org/abs/2608.28534"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -605,7 +710,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "03dddcc866a982e1",
@@ -626,7 +734,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "d08507c6dd8f3ff1",
@@ -647,7 +759,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "30d3e0d4c51df52c",
@@ -664,7 +780,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "6fb8d323a6644752",
@@ -681,7 +800,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "b127abe2bbeb4911",
@@ -698,7 +820,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "972cdcddc42f338f",
@@ -719,7 +844,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "94b5ec063f5cafc2",
@@ -736,7 +865,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "8348f8f60db16b79",
@@ -753,7 +885,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "04e315ebdd57f0b1",
@@ -770,7 +905,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "a2f038ddf6ba57e0",
@@ -787,7 +925,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "48b18568b4dcf1a9",
@@ -808,7 +949,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "0fd4d9111d18e287",
@@ -825,7 +970,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "2898a53d04394efa",
@@ -846,7 +994,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "dd371037d70c737f",
@@ -863,7 +1015,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "2d0dbb5662da80a4",
@@ -880,7 +1035,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "5a44a55390429460",
@@ -901,7 +1059,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "cde6039f103f885c",
@@ -922,7 +1084,11 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "7121e737b53f5c8f",
@@ -939,7 +1105,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "97eaaf36b3550f03",
@@ -956,7 +1125,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
     },
     {
       "id": "4546ba65600cacfe",
@@ -979,8 +1151,12 @@
           "url": "https://doi.org/10.48550/arxiv.2603.06588",
           "title": "vLLM Hook v0: A Plug-in for Programming Model Internals on vLLM",
           "references": [],
-          "openalex_id": "https://openalex.org/W7134805666"
+          "openalex_id": "https://openalex.org/W7134805666",
+          "linked_url": "https://arxiv.org/abs/2603.06588"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -998,7 +1174,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "6116da9c839ce217",
@@ -1015,7 +1194,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "29facfa5780b28e7",
@@ -1032,7 +1214,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "d9b6e80ff3477f59",
@@ -1049,7 +1234,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "c40fae91a3af5c3c",
@@ -1066,7 +1254,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "47e5fa4d38e94338",
@@ -1083,7 +1274,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "5926ba0167f60987",
@@ -1100,7 +1294,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "8d2b1b80f2b60b18",
@@ -1117,7 +1314,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "660a6401b7178f7c",
@@ -1140,8 +1340,12 @@
           "url": "https://doi.org/10.48550/arxiv.2603.27448",
           "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
           "references": [],
-          "openalex_id": "https://openalex.org/W7147317732"
+          "openalex_id": "https://openalex.org/W7147317732",
+          "linked_url": "https://arxiv.org/pdf/2603.27448"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1159,7 +1363,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "5f4f3d73388e3553",
@@ -1176,7 +1383,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "7057161d98c69151",
@@ -1199,22 +1409,28 @@
           "url": "https://doi.org/10.1109/cvpr52733.2024.01536",
           "title": "Holodeck: Language Guided Generation of 3D Embodied AI Environments",
           "references": [],
-          "openalex_id": "https://openalex.org/W4402660086"
+          "openalex_id": "https://openalex.org/W4402660086",
+          "linked_url": "https://arxiv.org/abs/2312.09067"
         },
         {
           "id": "f9624ab6a95176a9",
           "url": "https://doi.org/10.1109/3dv69130.2026.00131",
           "title": "HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation",
           "references": [],
-          "openalex_id": "https://openalex.org/W4417151569"
+          "openalex_id": "https://openalex.org/W4417151569",
+          "linked_url": "https://arxiv.org/abs/2503.16848"
         },
         {
           "id": "50aa5c53fa6639cd",
           "url": "https://doi.org/10.48550/arxiv.2602.09153",
           "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
           "references": [],
-          "openalex_id": "https://openalex.org/W7128645082"
+          "openalex_id": "https://openalex.org/W7128645082",
+          "linked_url": "https://arxiv.org/abs/2602.09153"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1232,7 +1448,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "7e18bad74f159f21",
@@ -1249,7 +1468,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "aa9fc9ccabb552d7",
@@ -1266,7 +1488,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "15d225116275797e",
@@ -1283,7 +1508,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "e67ec1cb4de6d14b",
@@ -1300,7 +1528,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "146616c6fb5f21af",
@@ -1317,7 +1548,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "cdeb37f2167c8b43",
@@ -1340,8 +1574,12 @@
           "url": "https://doi.org/10.1109/icra57385.2026.11696140",
           "title": "Masked IRL: LLM-Guided Reward Disambiguation from Demonstrations and Language",
           "references": [],
-          "openalex_id": "https://openalex.org/W7106144302"
+          "openalex_id": "https://openalex.org/W7106144302",
+          "linked_url": "https://arxiv.org/abs/2511.14565"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1359,7 +1597,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "0165ac26c6a067ca",
@@ -1382,15 +1623,20 @@
           "url": "https://doi.org/10.1109/tro.2023.3348305",
           "title": "GMMap: Memory-Efficient Continuous Occupancy Map Using Gaussian Mixture Model",
           "references": [],
-          "openalex_id": "https://openalex.org/W4390480635"
+          "openalex_id": "https://openalex.org/W4390480635",
+          "linked_url": "https://arxiv.org/pdf/2306.03740"
         },
         {
           "id": "6f2b2ab3a72c0413",
           "url": "https://doi.org/10.48550/arxiv.2603.29005",
           "title": "Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping",
           "references": [],
-          "openalex_id": "https://openalex.org/W7147664412"
+          "openalex_id": "https://openalex.org/W7147664412",
+          "linked_url": "https://arxiv.org/pdf/2603.29005"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1414,8 +1660,12 @@
           "url": "https://doi.org/10.1126/sciadv.aea9951",
           "title": "Machine learning potentials for modeling alloys across compositions",
           "references": [],
-          "openalex_id": "https://openalex.org/W4415111983"
+          "openalex_id": "https://openalex.org/W4415111983",
+          "linked_url": "https://doi.org/10.1126/sciadv.aea9951"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1433,7 +1683,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "c71de984ef63e5cb",
@@ -1456,8 +1709,12 @@
           "url": "https://doi.org/10.48550/arxiv.2512.00565",
           "title": "Describe Anything Anywhere At Any Moment",
           "references": [],
-          "openalex_id": "https://openalex.org/W4416953174"
+          "openalex_id": "https://openalex.org/W4416953174",
+          "linked_url": "https://arxiv.org/pdf/2512.00565"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1475,7 +1732,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "f0cef49b3239bda0",
@@ -1492,7 +1752,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "4bacc003f4f37fee",
@@ -1509,7 +1772,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "b7012bd426f731bb",
@@ -1532,8 +1798,12 @@
           "url": "https://doi.org/10.48550/arxiv.2603.27064",
           "title": "ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding",
           "references": [],
-          "openalex_id": "https://openalex.org/W7147548920"
+          "openalex_id": "https://openalex.org/W7147548920",
+          "linked_url": "https://arxiv.org/pdf/2603.27064"
         }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
       ]
     },
     {
@@ -1551,7 +1821,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "a60dc0c3f97fd7d7",
@@ -1568,7 +1841,10 @@
           "name": "Machine learning"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
     },
     {
       "id": "54ab6a90455a94bd",
@@ -1585,7 +1861,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "a9baacb01853f7e8",
@@ -1602,7 +1881,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "fadf2f862b798bc2",
@@ -1619,7 +1901,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "75dbfa3dbb189064",
@@ -1644,7 +1929,12 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "c5e0ced41e4cc234",
@@ -1665,7 +1955,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "fdcc7aa249c6186f",
@@ -1686,7 +1980,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "e8f833c21abbe460",
@@ -1703,7 +2001,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "e398058e1e0abb0b",
@@ -1720,7 +2021,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "2f3cd75ecef93e7f",
@@ -1737,7 +2041,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "1d1d1e21317653f9",
@@ -1758,7 +2065,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "faa1bd9cb2946bff",
@@ -1775,7 +2086,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "f8b88f7f8f5e15cd",
@@ -1796,7 +2110,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "7cf5378f3d0494ae",
@@ -1813,7 +2131,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "c06f94159f7422c6",
@@ -1834,7 +2155,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c73cfc1a4988572f",
@@ -1851,7 +2176,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "f3008c581c95c7b2",
@@ -1872,7 +2200,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "32e9a1ea52742954",
@@ -1889,7 +2221,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "17659001f0a97317",
@@ -1906,7 +2241,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "a211721f14d9b975",
@@ -1923,7 +2261,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "c9c0e217074dbed8",
@@ -1944,7 +2285,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "0a8c4651bb437a4e",
@@ -1965,7 +2310,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "74b78e94ea7e379c",
@@ -1982,7 +2331,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "952b1ee1e28fb307",
@@ -1999,7 +2351,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "58d06db515651eab",
@@ -2016,7 +2371,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "5dd9f9f02bd7899f",
@@ -2037,7 +2395,11 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "0462452e36fbd508",
@@ -2058,7 +2420,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "d68fc0cc3f81f459",
@@ -2079,7 +2445,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "4152d47851c8ce55",
@@ -2096,7 +2466,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "5f01f00a8ff6f417",
@@ -2117,7 +2490,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "145ee9c305a7511c",
@@ -2138,7 +2515,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "193ec3459e9adb20",
@@ -2155,7 +2536,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "e7c0bfba5f004936",
@@ -2176,7 +2560,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "918adf7c7d7068be",
@@ -2197,7 +2585,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "e13fad55718d0682",
@@ -2218,7 +2610,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "edd7ebc1ad407044",
@@ -2239,7 +2635,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "d4917fb7b8ec471f",
@@ -2256,7 +2656,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "602b6c0900fa5fe1",
@@ -2277,7 +2680,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "aa3ae8fbd83b19aa",
@@ -2294,7 +2701,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "f7d48e9fd7419991",
@@ -2315,7 +2725,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "331bc9075c259dc1",
@@ -2332,7 +2746,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "be4cf9cbd13d5acb",
@@ -2357,7 +2774,12 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "75cef57aa6312bd7",
@@ -2378,7 +2800,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "ec3bb0408b648f49",
@@ -2399,7 +2825,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "0a953168404058f6",
@@ -2420,7 +2850,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "4e4141ffcc7bcd88",
@@ -2437,7 +2871,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "fb36dae4f6e43075",
@@ -2454,7 +2891,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "3e500fdb6a9ad820",
@@ -2475,7 +2915,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "960e6afbddda6a58",
@@ -2496,7 +2940,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "46c8c3fdc6bf5f90",
@@ -2517,7 +2965,11 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "5de0acf2c3a3de1d",
@@ -2534,7 +2986,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "fb8395678575069e",
@@ -2551,7 +3006,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "a2fff1ffa2c2d2de",
@@ -2568,7 +3026,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "9d98530dd642d38d",
@@ -2585,7 +3046,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "2b31e652b9d89acb",
@@ -2602,7 +3066,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "7b0aec3b5d230573",
@@ -2619,7 +3086,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "ce046bc4a0211e2c",
@@ -2636,7 +3106,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "739e8b049936dc0d",
@@ -2653,7 +3126,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "6f2914d13f0dda01",
@@ -2670,7 +3146,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "e2a2345ef9e659ab",
@@ -2687,7 +3166,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "d366e46073a68094",
@@ -2704,7 +3186,10 @@
           "name": "Artificial intelligence"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
     },
     {
       "id": "3851ebd67dc2179d",
@@ -2721,7 +3206,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "0646c013cedc7d4e",
@@ -2738,7 +3226,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "1e5c0087825c2d41",
@@ -2755,7 +3246,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8334a9b5195b365e",
@@ -2772,7 +3266,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "4c456ea1d6a6668a",
@@ -2789,7 +3286,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "a8d610b4f01fc8cc",
@@ -2806,7 +3306,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "416995ff1fca0a61",
@@ -2823,7 +3326,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "2172c195b003f25a",
@@ -2840,7 +3346,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8d70837b7ae0eee8",
@@ -2857,7 +3366,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c8b9418f22d295ad",
@@ -2874,7 +3386,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c796cac47633cf5f",
@@ -2895,7 +3410,11 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "434fdb7a2dc7d878",
@@ -2912,7 +3431,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c57d24a5c4125fa2",
@@ -2929,7 +3451,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "773db9f8cf244df7",
@@ -2946,7 +3471,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c480996a35e5bef4",
@@ -2963,7 +3491,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "67f73c670d734c4d",
@@ -2980,7 +3511,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "315f22c4867209aa",
@@ -2997,7 +3531,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "6167dcf62171af69",
@@ -3014,7 +3551,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8183316afbdd1501",
@@ -3031,7 +3571,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "a76607d79e7beacb",
@@ -3048,7 +3591,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c49f3ca5c144121a",
@@ -3065,7 +3611,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "3460715e671acc41",
@@ -3082,7 +3631,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8464841eb72d5302",
@@ -3099,7 +3651,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "87806b3291588331",
@@ -3116,7 +3671,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "800a33adb1ef3b70",
@@ -3133,7 +3691,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "d77c7c4495e934b0",
@@ -3150,7 +3711,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8e5cfba4f06c53b8",
@@ -3167,7 +3731,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "7790697f55adc16f",
@@ -3184,7 +3751,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8d1ecd6c9650dad4",
@@ -3201,7 +3771,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "5b0667d5ae12b7e0",
@@ -3218,7 +3791,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "f00c74a9de978880",
@@ -3235,7 +3811,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "734ad8bfded8d344",
@@ -3252,7 +3831,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "c19a4c9fb39d16ed",
@@ -3269,7 +3851,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "8022762d4c63d163",
@@ -3286,7 +3871,10 @@
           "name": "Robotics"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
     },
     {
       "id": "e23b033e517e8453",
@@ -3303,7 +3891,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "4679fece56207118",
@@ -3320,7 +3911,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "a406214056b14942",
@@ -3337,7 +3931,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "876946d5c3d0fb2d",
@@ -3354,7 +3951,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "b9100b1c88c6135c",
@@ -3371,7 +3971,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "285bd03821db808f",
@@ -3388,7 +3991,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "251b2f3c2e1703e1",
@@ -3405,7 +4011,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "3ec2b5d1d6b7ec05",
@@ -3422,7 +4031,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "d810f25638030a45",
@@ -3439,7 +4051,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "9c7657c61f056257",
@@ -3456,7 +4071,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "93efb3828a382638",
@@ -3473,7 +4091,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "18bfabf4907142e3",
@@ -3490,7 +4111,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "196904cd929dd24a",
@@ -3507,7 +4131,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "e6a37c643ae17183",
@@ -3524,7 +4151,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "30cb7412ae7b9693",
@@ -3541,7 +4171,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "0563875f7a6b6280",
@@ -3558,7 +4191,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "7979dd5754df131e",
@@ -3575,7 +4211,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "c6572efeb346e0bd",
@@ -3592,7 +4231,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "e03e867867c2be49",
@@ -3609,7 +4251,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "86bd95f75e914ed4",
@@ -3626,7 +4271,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "569ce95b57a35f06",
@@ -3643,7 +4291,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "a57ae14dbd877368",
@@ -3660,7 +4311,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "f44242222cee1c46",
@@ -3677,7 +4331,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "daf441bfce30a95c",
@@ -3694,7 +4351,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "26001c38c4528149",
@@ -3711,7 +4371,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "f91ab2087196e014",
@@ -3728,7 +4391,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "56ed688214da4011",
@@ -3745,7 +4411,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "8beed8bf6313a42d",
@@ -3762,7 +4431,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "b29c4ccf507da0f1",
@@ -3779,7 +4451,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "3889dde921a28205",
@@ -3796,7 +4471,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "40b024042379268c",
@@ -3813,7 +4491,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "f405602eac34d493",
@@ -3830,7 +4511,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "7860d7ef6d6cccd0",
@@ -3847,7 +4531,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "97e0597c4b68ea67",
@@ -3864,7 +4551,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "7da7b33e27068f4d",
@@ -3881,7 +4571,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "343848156b72b4eb",
@@ -3898,7 +4591,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "bef8b8157ebe2fc5",
@@ -3915,7 +4611,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "3ce67994ea15fc61",
@@ -3932,7 +4631,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "2272903556181521",
@@ -3949,7 +4651,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "0f17261f4b56f6cd",
@@ -3966,7 +4671,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "d8dddde96a296009",
@@ -3983,7 +4691,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "3a7ae1ff07d1231e",
@@ -4000,7 +4711,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "03963efdfe04080a",
@@ -4017,7 +4731,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "4522da77d4b888b8",
@@ -4034,7 +4751,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "3568a6f5c81e19af",
@@ -4051,7 +4771,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "654acb0021737450",
@@ -4068,7 +4791,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "430d8db67cc41f12",
@@ -4085,7 +4811,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "6c601c512514a4b1",
@@ -4102,7 +4831,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "e39fd845c5b04330",
@@ -4119,7 +4851,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "29b68ecae97a3092",
@@ -4136,7 +4871,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "35275b1465964b81",
@@ -4153,7 +4891,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "f743d30a01854ea3",
@@ -4170,7 +4911,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "a29b4f9cafe7aed2",
@@ -4187,7 +4931,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "e3e1f8e6b9abd1be",
@@ -4204,7 +4951,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "d84dfe3a38750263",
@@ -4221,7 +4971,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "0dd5685da8fe33eb",
@@ -4238,7 +4991,10 @@
           "name": "Neural interfaces"
         }
       ],
-      "papers": []
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
     },
     {
       "id": "1df7478eaeec06c0",
@@ -4261,9 +5017,11 @@
           "url": "https://doi.org/10.52202/085713-2118",
           "title": "Fantastic Bugs and Where to Find Them in AI Benchmarks",
           "references": [],
-          "openalex_id": "https://openalex.org/W4416592988"
+          "openalex_id": "https://openalex.org/W4416592988",
+          "linked_url": "https://arxiv.org/abs/2511.16842"
         }
-      ]
+      ],
+      "feed_urls": []
     }
   ]
 }
