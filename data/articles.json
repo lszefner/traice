@@ -50,7 +50,10 @@
           "title": "Large-Scale, Longitudinal Study of Large Language Models During the 2024 US Election Season",
           "references": [],
           "openalex_id": "https://openalex.org/W4416257879",
-          "linked_url": "https://arxiv.org/abs/2509.18446"
+          "linked_url": "https://arxiv.org/abs/2509.18446",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/artificial-intelligence2"
+          ]
         }
       ],
       "feed_urls": [
@@ -233,7 +236,11 @@
           "title": "X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing",
           "references": [],
           "openalex_id": "https://openalex.org/W7212310907",
-          "linked_url": "http://arxiv.org/abs/2609.11077"
+          "linked_url": "http://arxiv.org/abs/2609.11077",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/artificial-intelligence2",
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -687,7 +694,11 @@
           "title": "InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
           "references": [],
           "openalex_id": "https://openalex.org/W7204782216",
-          "linked_url": "https://arxiv.org/abs/2608.28534"
+          "linked_url": "https://arxiv.org/abs/2608.28534",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/artificial-intelligence2",
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1152,7 +1163,10 @@
           "title": "vLLM Hook v0: A Plug-in for Programming Model Internals on vLLM",
           "references": [],
           "openalex_id": "https://openalex.org/W7134805666",
-          "linked_url": "https://arxiv.org/abs/2603.06588"
+          "linked_url": "https://arxiv.org/abs/2603.06588",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1341,7 +1355,10 @@
           "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
           "references": [],
           "openalex_id": "https://openalex.org/W7147317732",
-          "linked_url": "https://arxiv.org/pdf/2603.27448"
+          "linked_url": "https://arxiv.org/pdf/2603.27448",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1410,7 +1427,10 @@
           "title": "Holodeck: Language Guided Generation of 3D Embodied AI Environments",
           "references": [],
           "openalex_id": "https://openalex.org/W4402660086",
-          "linked_url": "https://arxiv.org/abs/2312.09067"
+          "linked_url": "https://arxiv.org/abs/2312.09067",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         },
         {
           "id": "f9624ab6a95176a9",
@@ -1418,7 +1438,10 @@
           "title": "HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation",
           "references": [],
           "openalex_id": "https://openalex.org/W4417151569",
-          "linked_url": "https://arxiv.org/abs/2503.16848"
+          "linked_url": "https://arxiv.org/abs/2503.16848",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         },
         {
           "id": "50aa5c53fa6639cd",
@@ -1426,7 +1449,10 @@
           "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
           "references": [],
           "openalex_id": "https://openalex.org/W7128645082",
-          "linked_url": "https://arxiv.org/abs/2602.09153"
+          "linked_url": "https://arxiv.org/abs/2602.09153",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1575,7 +1601,10 @@
           "title": "Masked IRL: LLM-Guided Reward Disambiguation from Demonstrations and Language",
           "references": [],
           "openalex_id": "https://openalex.org/W7106144302",
-          "linked_url": "https://arxiv.org/abs/2511.14565"
+          "linked_url": "https://arxiv.org/abs/2511.14565",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1624,7 +1653,10 @@
           "title": "GMMap: Memory-Efficient Continuous Occupancy Map Using Gaussian Mixture Model",
           "references": [],
           "openalex_id": "https://openalex.org/W4390480635",
-          "linked_url": "https://arxiv.org/pdf/2306.03740"
+          "linked_url": "https://arxiv.org/pdf/2306.03740",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         },
         {
           "id": "6f2b2ab3a72c0413",
@@ -1632,7 +1664,10 @@
           "title": "Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping",
           "references": [],
           "openalex_id": "https://openalex.org/W7147664412",
-          "linked_url": "https://arxiv.org/pdf/2603.29005"
+          "linked_url": "https://arxiv.org/pdf/2603.29005",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1661,7 +1696,10 @@
           "title": "Machine learning potentials for modeling alloys across compositions",
           "references": [],
           "openalex_id": "https://openalex.org/W4415111983",
-          "linked_url": "https://doi.org/10.1126/sciadv.aea9951"
+          "linked_url": "https://doi.org/10.1126/sciadv.aea9951",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1710,7 +1748,10 @@
           "title": "Describe Anything Anywhere At Any Moment",
           "references": [],
           "openalex_id": "https://openalex.org/W4416953174",
-          "linked_url": "https://arxiv.org/pdf/2512.00565"
+          "linked_url": "https://arxiv.org/pdf/2512.00565",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -1799,7 +1840,10 @@
           "title": "ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding",
           "references": [],
           "openalex_id": "https://openalex.org/W7147548920",
-          "linked_url": "https://arxiv.org/pdf/2603.27064"
+          "linked_url": "https://arxiv.org/pdf/2603.27064",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
         }
       ],
       "feed_urls": [
@@ -5018,7 +5062,8 @@
           "title": "Fantastic Bugs and Where to Find Them in AI Benchmarks",
           "references": [],
           "openalex_id": "https://openalex.org/W4416592988",
-          "linked_url": "https://arxiv.org/abs/2511.16842"
+          "linked_url": "https://arxiv.org/abs/2511.16842",
+          "linked_feed_urls": []
         }
       ],
       "feed_urls": []

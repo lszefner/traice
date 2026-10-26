@@ -59,13 +59,14 @@ def collect():
                 continue
             row = articles.setdefault(url, {"id": stable_id(url), "url": url, "title": title,
                 "published_at": published, "publisher": {"id": domain, "name": publisher},
-                "topics": [], "papers": [], "feed_urls": [], "_links": []})
+                "topics": [], "papers": [], "feed_urls": [], "_links": {}})
             if feed not in row['feed_urls']:
                 row['feed_urls'].append(feed)
             entry = {"id": stable_id(topic.lower()), "name": topic}
             if entry not in row['topics']:
                 row['topics'].append(entry)
-            row['_links'] = sorted(set(row['_links']) | set(paper_links(item.findtext(CONTENT, '') + ' ' + item.findtext('description', ''))))
+            for link in paper_links(item.findtext(CONTENT, '') + ' ' + item.findtext('description', '')):
+                row['_links'].setdefault(link, []).append(feed)
     # A manually checked example: the Stanford article links directly to this arXiv paper.
     url = 'https://news.stanford.edu/stories/2025/12/ai-benchmarks-flaws-models-bugs-research'
     articles[url] = {'id': stable_id(url), 'url': url,
@@ -73,7 +74,7 @@ def collect():
         'published_at': '2025-12-08',
         'publisher': {'id': 'news.stanford.edu', 'name': 'Stanford Report'},
         'topics': [{'id': stable_id('artificial intelligence'), 'name': 'Artificial intelligence'}],
-        'papers': [], 'feed_urls': [], '_links': ['https://arxiv.org/abs/2511.16842']}
+        'papers': [], 'feed_urls': [], '_links': {'https://arxiv.org/abs/2511.16842': []}}
     return list(articles.values())
 
 
@@ -81,7 +82,7 @@ def enrich(articles, max_requests=30):
     """Resolve explicit DOI links to OpenAlex works, leaving failed links unasserted."""
     cache = {}
     for row in reversed(articles):
-        for doi in row.pop('_links'):
+        for doi, link_feeds in row.pop('_links').items():
             if doi not in cache and len(cache) < max_requests:
                 try:
                     arxiv_id = re.search(r'arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})', doi, re.I)
@@ -95,12 +96,12 @@ def enrich(articles, max_requests=30):
                     cache[doi] = None
                 time.sleep(0.1)
             paper = cache.get(doi)
-            if paper and paper not in row['papers']:
-                row['papers'].append(paper)
+            if paper and not any(p['id'] == paper['id'] for p in row['papers']):
+                row['papers'].append({**paper, 'linked_feed_urls': link_feeds})
     # Keep only citation edges whose endpoints both occur in this snapshot.
     ids = {p['openalex_id']: p['id'] for p in cache.values() if p}
-    for paper in cache.values():
-        if paper:
+    for row in articles:
+        for paper in row['papers']:
             paper['references'] = [ids[ref] for ref in paper['references'] if ref in ids]
     return articles
 

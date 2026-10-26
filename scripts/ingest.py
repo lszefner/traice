@@ -31,7 +31,7 @@ SET p.url = paper.url, p.title = paper.title, p.openalex_id = paper.openalex_id
 MERGE (a)-[r:REFERENCES]->(p)
 SET r.source_url = row.url, r.linked_url = paper.linked_url,
     r.method = CASE WHEN size(row.feed_urls) > 0 THEN 'feed_link' ELSE 'manually_verified_page_link' END,
-    r.feed_urls = row.feed_urls
+    r.feed_urls = paper.linked_feed_urls
 """
 CITATION_QUERY = """
 UNWIND $rows AS row
