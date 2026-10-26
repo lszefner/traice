@@ -1,10 +1,11 @@
 """Traice API: explore evidence linking AI news and research."""
+
 import os
 from contextlib import asynccontextmanager
 from typing import Any
 
 from fastapi import FastAPI, HTTPException, Query, Request
-from neo4j import GraphDatabase, Query as Neo4jQuery
+from neo4j import GraphDatabase, unit_of_work
 from neo4j.exceptions import Neo4jError, ServiceUnavailable
 from pydantic import BaseModel
 
@@ -25,6 +26,7 @@ app = FastAPI(title="Traice", version="0.1.0", lifespan=lifespan)
 
 class Result(BaseModel):
     """Results and the graph evidence used to obtain them."""
+
     data: list[dict[str, Any]]
 
 
@@ -32,9 +34,12 @@ def read(request: Request, cypher: str, **parameters: Any) -> list[dict[str, Any
     """Execute a parameterized, time-limited query in a read transaction."""
     try:
         with request.app.state.driver.session(database=os.getenv("NEO4J_DATABASE", "neo4j")) as session:
-            return session.execute_read(
-                lambda tx: [dict(row) for row in tx.run(Neo4jQuery(cypher, timeout=5), **parameters)]
-            )
+
+            @unit_of_work(timeout=5)
+            def query_transaction(tx):
+                return [dict(row) for row in tx.run(cypher, **parameters)]
+
+            return session.execute_read(query_transaction)
     except (Neo4jError, ServiceUnavailable) as exc:
         raise HTTPException(status_code=503, detail="Graph database unavailable or query failed") from exc
 
@@ -48,18 +53,27 @@ def health() -> dict[str, str]:
 @app.get("/api/articles", response_model=Result)
 def articles(request: Request, limit: int = Query(20, ge=1, le=100), offset: int = Query(0, ge=0)) -> Result:
     """Browse articles by most recent publication date."""
-    return Result(data=read(request, """
+    return Result(
+        data=read(
+            request,
+            """
         MATCH (a:Article)-[:PUBLISHED_BY]->(p:Publisher)
         RETURN a.id AS id, a.title AS title, a.url AS url,
                a.published_at AS published_at, p.name AS publisher
         ORDER BY published_at DESC, id SKIP $offset LIMIT $limit
-    """, limit=limit, offset=offset))
+    """,
+            limit=limit,
+            offset=offset,
+        )
+    )
 
 
 @app.get("/api/articles/{article_id}/evidence", response_model=Result)
 def evidence(article_id: str, request: Request) -> Result:
     """Return a story's publisher, topics and explicitly linked papers."""
-    rows = read(request, """
+    rows = read(
+        request,
+        """
         MATCH (a:Article {id: $id})-[:PUBLISHED_BY]->(publisher:Publisher)
         OPTIONAL MATCH (a)-[:HAS_TOPIC]->(topic:Topic)
         WITH a, publisher, collect(DISTINCT topic.name) AS topics
@@ -69,7 +83,9 @@ def evidence(article_id: str, request: Request) -> Result:
                collect(DISTINCT CASE WHEN paper IS NULL THEN null ELSE
                    {id: paper.id, title: paper.title, url: paper.url,
                     source_url: ref.source_url, method: ref.method} END) AS papers
-    """, id=article_id)
+    """,
+        id=article_id,
+    )
     if not rows:
         raise HTTPException(status_code=404, detail="Article not found")
     return Result(data=rows)
@@ -80,14 +96,21 @@ def related(article_id: str, request: Request, limit: int = Query(10, ge=1, le=5
     """Find related stories through their shared topics, not inferred references."""
     if not read(request, "MATCH (a:Article {id:$id}) RETURN a.id AS id", id=article_id):
         raise HTTPException(status_code=404, detail="Article not found")
-    return Result(data=read(request, """
+    return Result(
+        data=read(
+            request,
+            """
         MATCH (a:Article {id:$id})-[:HAS_TOPIC]->(t:Topic)<-[:HAS_TOPIC]-(other:Article)
         WHERE other <> a
         WITH other, collect(DISTINCT t.name) AS shared_topics
         RETURN other.id AS id, other.title AS title, other.url AS url, shared_topics,
                size(shared_topics) AS score, 'shared_topic' AS connection
         ORDER BY score DESC, id LIMIT $limit
-    """, id=article_id, limit=limit))
+    """,
+            id=article_id,
+            limit=limit,
+        )
+    )
 
 
 @app.get("/api/papers/{paper_id}/coverage", response_model=Result)
@@ -95,13 +118,20 @@ def coverage(paper_id: str, request: Request, limit: int = Query(20, ge=1, le=50
     """Find articles with explicit source links to a research paper."""
     if not read(request, "MATCH (p:Paper {id:$id}) RETURN p.id AS id", id=paper_id):
         raise HTTPException(status_code=404, detail="Paper not found")
-    return Result(data=read(request, """
+    return Result(
+        data=read(
+            request,
+            """
         MATCH (a:Article)-[r:REFERENCES]->(p:Paper {id:$id})
         MATCH (a)-[:PUBLISHED_BY]->(publisher:Publisher)
         RETURN a.id AS id, a.title AS title, a.url AS url, publisher.name AS publisher,
                r.source_url AS source_url, r.method AS method
         ORDER BY a.published_at DESC, id LIMIT $limit
-    """, id=paper_id, limit=limit))
+    """,
+            id=paper_id,
+            limit=limit,
+        )
+    )
 
 
 @app.get("/api/topics/{topic_id}/connections", response_model=Result)
@@ -109,10 +139,19 @@ def connections(topic_id: str, request: Request, limit: int = Query(20, ge=1, le
     """Explore bounded two-hop article-topic-article paths."""
     if not read(request, "MATCH (t:Topic {id:$id}) RETURN t.id AS id", id=topic_id):
         raise HTTPException(status_code=404, detail="Topic not found")
-    return Result(data=read(request, """
-        MATCH (a:Article)-[:HAS_TOPIC]->(t:Topic {id:$id})<-[:HAS_TOPIC]-(b:Article)
+    return Result(
+        data=read(
+            request,
+            """
+        MATCH (t:Topic {id:$id})<-[:HAS_TOPIC]-(a:Article)
+        WITH t, a ORDER BY a.id LIMIT 100
+        MATCH (t)<-[:HAS_TOPIC]-(b:Article)
         WHERE a.id < b.id
         RETURN a.id AS from_id, a.title AS from_title, t.name AS topic,
                b.id AS to_id, b.title AS to_title, 'shared_topic' AS connection
         ORDER BY from_id, to_id LIMIT $limit
-    """, id=topic_id, limit=limit))
+    """,
+            id=topic_id,
+            limit=limit,
+        )
+    )
