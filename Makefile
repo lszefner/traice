@@ -23,7 +23,7 @@ docker-run:
 	docker compose up --build -d
 
 test:
-	$(VENV)/bin/pytest -m 'not integration' --cov=app --cov-report=term-missing --cov-report=xml
+	$(VENV)/bin/pytest -m 'not integration' --cov=app --cov-report=term-missing --cov-report=xml --cov-fail-under=60
 
 test-integration:
 	$(VENV)/bin/pytest -m integration
