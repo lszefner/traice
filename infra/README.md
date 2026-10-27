@@ -7,3 +7,5 @@ For local development, `make install` prepares `.venv`, `make run` starts the AP
 If the password in `.env` is changed after the database has initialized, updating the environment alone does not change its stored password. Change it through Neo4j instead, or deliberately delete the data volume only when the data is no longer needed.
 
 The natural-language feature expects an Ollama server reachable from the API container and the configured model already pulled. `.env.example` documents the host address and model. The rest of the stack can start without Ollama.
+
+Neo4j Community uses the configured database account for API access. It does not provide a separate least-privilege account here; the query validator and read-mode execution are necessary safeguards, not a database permission boundary. Do not expose this demo stack publicly.

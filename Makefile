@@ -23,10 +23,10 @@ docker-run:
 	docker compose up --build -d
 
 test:
-	$(VENV)/bin/pytest -m 'not integration' --cov=app --cov-report=term-missing --cov-report=xml --cov-fail-under=60
+	$(VENV)/bin/python -m pytest -m 'not integration' --cov=app --cov-report=term-missing --cov-report=xml --cov-fail-under=60
 
 test-integration:
-	$(VENV)/bin/pytest -m integration
+	$(VENV)/bin/python -m pytest -m integration
 
 lint:
 	$(VENV)/bin/pylint --fail-under=9.5 app
