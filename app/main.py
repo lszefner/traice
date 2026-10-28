@@ -82,7 +82,7 @@ def evidence(article_id: str, request: Request) -> Result:
                publisher.name AS publisher, topics,
                collect(DISTINCT CASE WHEN paper IS NULL THEN null ELSE
                    {id: paper.id, title: paper.title, url: paper.url,
-                    source_url: ref.source_url, method: ref.method} END) AS papers
+                    source_url: ref.source_url, linked_url: ref.linked_url, feed_urls: ref.feed_urls, method: ref.method} END) AS papers
     """,
         id=article_id,
     )
@@ -125,7 +125,7 @@ def coverage(paper_id: str, request: Request, limit: int = Query(20, ge=1, le=50
         MATCH (a:Article)-[r:REFERENCES]->(p:Paper {id:$id})
         MATCH (a)-[:PUBLISHED_BY]->(publisher:Publisher)
         RETURN a.id AS id, a.title AS title, a.url AS url, publisher.name AS publisher,
-               r.source_url AS source_url, r.method AS method
+               r.source_url AS source_url, r.linked_url AS linked_url, r.feed_urls AS feed_urls, r.method AS method
         ORDER BY a.published_at DESC, id LIMIT $limit
     """,
             id=paper_id,
