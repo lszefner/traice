@@ -1,0 +1,5072 @@
+{
+  "collected_at": "2026-11-02T12:34:59.500733+00:00",
+  "feeds": [
+    "https://news.mit.edu/rss/topic/artificial-intelligence2",
+    "https://news.mit.edu/rss/topic/machine-learning",
+    "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+    "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+    "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+  ],
+  "articles": [
+    {
+      "id": "d42b8e56046bc19f",
+      "url": "https://news.mit.edu/2026/mit-affiliates-named-schmidt-sciences-ai2050-fellows-1030",
+      "title": "MIT affiliates named 2026 Schmidt Sciences AI2050 Fellows",
+      "published_at": "2026-10-30",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "3dbc47c31caae532",
+      "url": "https://news.mit.edu/2026/qa-hey-ai-who-should-i-vote-for-this-year-1030",
+      "title": "Q&A: Hey AI, who should I vote for this year?",
+      "published_at": "2026-10-30",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [
+        {
+          "id": "0ec59ce0e1c59a66",
+          "url": "https://doi.org/10.48550/arxiv.2509.18446",
+          "title": "Large-Scale, Longitudinal Study of Large Language Models During the 2024 US Election Season",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4416257879",
+          "linked_url": "https://arxiv.org/abs/2509.18446",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/artificial-intelligence2"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "ba816ae2c66dda0a",
+      "url": "https://news.mit.edu/2026/3-questions-why-infrastructure-is-entering-defining-era-1028",
+      "title": "3 Questions: Why infrastructure is entering a defining era",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "9eab77713c3920c6",
+      "url": "https://news.mit.edu/2026/making-machines-that-can-listen-paris-smaragdis-1028",
+      "title": "Making machines that can listen",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "f6bcb634209c36de",
+      "url": "https://news.mit.edu/2026/learner-prabha-jha-collaborates-with-mit-peers-to-develop-book-of-ai-insights-1027",
+      "title": "Learner collaborates with MIT peers to develop book of AI insights",
+      "published_at": "2026-10-27",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "a4c5f32431d10496",
+      "url": "https://news.mit.edu/2026/at-new-york-climate-week-mit-connects-global-network-1026",
+      "title": "At New York Climate Week 2026, MIT connects with a global network",
+      "published_at": "2026-10-26",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "303db39c14fcfc30",
+      "url": "https://news.mit.edu/2026/martha-minow-speaks-on-sustaining-democracy-using-overcoming-ai-1023",
+      "title": "At MIT, Martha Minow speaks on sustaining democracy, both by using and overcoming AI",
+      "published_at": "2026-10-23",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "6b7380afc5963ae9",
+      "url": "https://news.mit.edu/2026/reinforcing-value-of-human-understanding-at-mit-1023",
+      "title": "Reinforcing the value of human understanding at MIT",
+      "published_at": "2026-10-23",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "000b68dcd1349dc1",
+      "url": "https://news.mit.edu/2026/qa-how-ai-came-to-model-messy-human-mind-1023",
+      "title": "Q&A: How AI came to model the “messy” human mind",
+      "published_at": "2026-10-23",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "5f1dd60d45c3c1d2",
+      "url": "https://news.mit.edu/2026/design-software-reimagines-everyday-objects-as-self-aware-devices-1022",
+      "title": "This design software reimagines everyday objects as self-aware devices",
+      "published_at": "2026-10-22",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "9fa0396f5c615b2f",
+          "url": "https://doi.org/10.1145/3830398.3830598",
+          "title": "X-Hinges: 3D Printing Self-Sensing Compliant Mechanisms for Continuous and Multi-DOF Motion Sensing",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7212310907",
+          "linked_url": "http://arxiv.org/abs/2609.11077",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/artificial-intelligence2",
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "820876c7f3cb0963",
+      "url": "https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019",
+      "title": "Why teaching AI about symmetry could make prenatal diagnosis more reliable",
+      "published_at": "2026-10-19",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "9692486eeb77934b",
+      "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+      "title": "Giving AI a “crystal clear” view of the materials world",
+      "published_at": "2026-10-18",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "bd03643a45398d75",
+      "url": "https://news.mit.edu/2026/fostering-community-amid-kendall-square-innovation-1016",
+      "title": "Fostering community amid Kendall Square’s innovation",
+      "published_at": "2026-10-16",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "2bc7550860128a48",
+      "url": "https://news.mit.edu/2026/state-of-supply-chain-sustainability-report-1015",
+      "title": "State of Supply Chain Sustainability Report finds corporate commitment at record high, but governance lags behind",
+      "published_at": "2026-10-15",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "38a125a6c95bf334",
+      "url": "https://news.mit.edu/2026/ai-model-decodes-language-cells-use-communicate-1015",
+      "title": "AI model decodes the language cells use to communicate",
+      "published_at": "2026-10-15",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "6961d7c2dc9bbc85",
+      "url": "https://news.mit.edu/2026/collision-between-ai-your-brain-and-society-eric-so-book-1015",
+      "title": "Q&A: The “collision” between AI, your brain, and society",
+      "published_at": "2026-10-15",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "40c8137255fe9e48",
+      "url": "https://news.mit.edu/2026/researchers-improve-weather-forecasts-looking-two-six-weeks-out-1014",
+      "title": "Researchers improve weather forecasts looking two to six weeks out",
+      "published_at": "2026-10-14",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "08d1bb7044624eeb",
+      "url": "https://news.mit.edu/2026/how-artificial-neural-networks-build-their-own-learning-machinery-1013",
+      "title": "How artificial neural networks build their own learning machinery",
+      "published_at": "2026-10-13",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "e2c278ab2328153d",
+      "url": "https://news.mit.edu/2026/mit-lincoln-laboratory-hosts-national-security-commission-emerging-biotechnology-1013",
+      "title": "MIT Lincoln Laboratory hosts National Security Commission on Emerging Biotechnology",
+      "published_at": "2026-10-13",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "86d056a4b8dd3b41",
+      "url": "https://news.mit.edu/2026/qa-building-accountability-behind-our-words-and-ai-civic-conversations-1013",
+      "title": "Q&A: Building accountability behind our words — and AI’s — in civic conversations",
+      "published_at": "2026-10-13",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "2f2b75ba2a94fb2d",
+      "url": "https://news.mit.edu/2026/3-questions-best-path-forward-for-ai-academia-1008",
+      "title": "3 Questions: What is the best path forward for AI in academia?",
+      "published_at": "2026-10-08",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "4564112263663773",
+      "url": "https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008",
+      "title": "Using AI to mitigate the growing environmental threat of data centers",
+      "published_at": "2026-10-08",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "eb7eb8762462fed1",
+      "url": "https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007",
+      "title": "Discovering the value of humanistic inquiry",
+      "published_at": "2026-10-07",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "d64d5a2b545447f7",
+      "url": "https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006",
+      "title": "Supercomputing researchers document evolution of AI hardware",
+      "published_at": "2026-10-06",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "d2180633b0558666",
+      "url": "https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006",
+      "title": "Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries",
+      "published_at": "2026-10-06",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "caed2b7e642ba54e",
+      "url": "https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006",
+      "title": "MIT announces the MIT for America initiative, to strengthen STEM education across the country",
+      "published_at": "2026-10-06",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "bebca6424b0efee5",
+      "url": "https://news.mit.edu/2026/computational-tools-for-societys-most-complex-challenges-cathy-wu-1002",
+      "title": "Computational tools for society’s most complex challenges",
+      "published_at": "2026-10-02",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "5433625968f5adcb",
+      "url": "https://news.mit.edu/2026/documenting-tech-worker-movement-1002",
+      "title": "Documenting the tech worker movement",
+      "published_at": "2026-10-02",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "59d88ee0fd4c3ec0",
+      "url": "https://news.mit.edu/2026/3-questions-new-resource-empower-young-entrepreneurs-1002",
+      "title": "3 Questions: A new resource to empower young entrepreneurs",
+      "published_at": "2026-10-02",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "02c744c8cb64f92f",
+      "url": "https://news.mit.edu/2026/instructmesh-tool-lets-users-repair-ai-3d-models-then-fabricate-them-1001",
+      "title": "New tool lets users repair AI-generated 3D models, then fabricate them just the way they want",
+      "published_at": "2026-10-01",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "6286d09abccd4478",
+          "url": "https://doi.org/10.1145/3830398.3830647",
+          "title": "InstructMesh: Selective Refinement of Generative 3D Models for Fabrication",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7204782216",
+          "linked_url": "https://arxiv.org/abs/2608.28534",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/artificial-intelligence2",
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "17f635e65de87807",
+      "url": "https://news.mit.edu/2026/mit-transit-lab-to-develop-ai-platform-public-transit-agencies-0930",
+      "title": "MIT Transit Lab to develop an AI platform for public transit agencies",
+      "published_at": "2026-09-30",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "03dddcc866a982e1",
+      "url": "https://news.mit.edu/2026/game-playing-ai-stratego-new-champ-0930",
+      "title": "This game-playing AI is the new champ at Stratego",
+      "published_at": "2026-09-30",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "d08507c6dd8f3ff1",
+      "url": "https://news.mit.edu/2026/algorithmic-monoculture-effects-depend-on-details-0929",
+      "title": "The effects of an “algorithmic monoculture” depend on the details",
+      "published_at": "2026-09-29",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "30d3e0d4c51df52c",
+      "url": "https://news.mit.edu/2026/when-we-talk-to-machines-sherry-turkle-book-0929",
+      "title": "Who we become when we talk to machines",
+      "published_at": "2026-09-29",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "6fb8d323a6644752",
+      "url": "https://news.mit.edu/2026/new-formulation-helps-rna-vaccines-withstand-high-temperatures-0928",
+      "title": "New formulation helps RNA vaccines withstand high temperatures",
+      "published_at": "2026-09-28",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "b127abe2bbeb4911",
+      "url": "https://news.mit.edu/2026/mit-students-gain-humanist-lens-technical-innovation-tulsa-oklahoma-0925",
+      "title": "MIT students gain a humanist lens on technical innovation in Tulsa, Oklahoma",
+      "published_at": "2026-09-25",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "972cdcddc42f338f",
+      "url": "https://news.mit.edu/2026/estimating-suicide-risk-from-text-0924",
+      "title": "Estimating suicide risk from text",
+      "published_at": "2026-09-24",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "94b5ec063f5cafc2",
+      "url": "https://news.mit.edu/2026/studying-cities-using-visual-ai-fabio-duarte-martina-mazzarello-carlo-ratti-fan-zhang-book-0924",
+      "title": "The promise and peril of using visual AI to study cities",
+      "published_at": "2026-09-24",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "8348f8f60db16b79",
+      "url": "https://news.mit.edu/2026/mit-welcomes-david-siegel-innovation-fellow-0923",
+      "title": "MIT welcomes David Siegel SM ’86, PhD ’91 as its next Innovation Fellow",
+      "published_at": "2026-09-23",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "04e315ebdd57f0b1",
+      "url": "https://news.mit.edu/2026/poitras-center-to-fuel-early-careers-50-young-scientists-psychiatric-disorders-research-0922",
+      "title": "Poitras Center to fuel early careers of 50 young scientists dedicated to psychiatric disorders research",
+      "published_at": "2026-09-22",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "a2f038ddf6ba57e0",
+      "url": "https://news.mit.edu/2026/new-chapter-mit-reads-0918",
+      "title": "A new chapter for MIT Reads",
+      "published_at": "2026-09-18",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "48b18568b4dcf1a9",
+      "url": "https://news.mit.edu/2026/new-ai-technique-could-make-minimally-invasive-surgeries-safer-more-precise-0916",
+      "title": "New AI technique could make minimally invasive surgeries safer and more precise",
+      "published_at": "2026-09-16",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "0fd4d9111d18e287",
+      "url": "https://news.mit.edu/2026/studying-society-accurately-naoki-egami-0916",
+      "title": "Measure by measure, studying society accurately",
+      "published_at": "2026-09-16",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "2898a53d04394efa",
+      "url": "https://news.mit.edu/2026/new-method-enables-ai-safety-critical-situations-0914",
+      "title": "New method enables AI for safety-critical situations",
+      "published_at": "2026-09-14",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "dd371037d70c737f",
+      "url": "https://news.mit.edu/2026/mit-spinout-turns-plastic-waste-into-resilient-building-materials-0914",
+      "title": "MIT spinout turns plastic waste into resilient building materials",
+      "published_at": "2026-09-14",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "2d0dbb5662da80a4",
+      "url": "https://news.mit.edu/2026/lifesaving-lincoln-laboratory-technology-wins-tech-transfer-award-0911",
+      "title": "Lifesaving Lincoln Laboratory device wins 2026 Excellence in Technology Transfer Award",
+      "published_at": "2026-09-11",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "5a44a55390429460",
+      "url": "https://news.mit.edu/2026/mit-schwarzman-college-computing-launches-pilot-help-educators-teach-ai-across-disciplines-0909",
+      "title": "MIT Schwarzman College of Computing launches pilot to help educators teach AI across disciplines",
+      "published_at": "2026-09-09",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "cde6039f103f885c",
+      "url": "https://news.mit.edu/2026/system-helps-humans-predict-when-self-driving-cars-will-make-mistakes-0902",
+      "title": "System helps humans predict when self-driving cars will make mistakes",
+      "published_at": "2026-09-02",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2",
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "7121e737b53f5c8f",
+      "url": "https://news.mit.edu/2026/ila-kumar-innovates-with-communities-0901",
+      "title": "Ila Kumar: Innovating with communities",
+      "published_at": "2026-09-01",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "97eaaf36b3550f03",
+      "url": "https://news.mit.edu/2026/how-mit-research-project-became-global-programming-language-0831",
+      "title": "How an MIT research project became a global programming language",
+      "published_at": "2026-08-31",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/artificial-intelligence2"
+      ]
+    },
+    {
+      "id": "4546ba65600cacfe",
+      "url": "https://news.mit.edu/2026/from-mit-to-ibm-expediting-ai-and-quantum-deployment-0902",
+      "title": "From MIT to IBM, expediting AI and quantum deployment",
+      "published_at": "2026-09-02",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "6f35204ded39d8bf",
+          "url": "https://doi.org/10.48550/arxiv.2603.06588",
+          "title": "vLLM Hook v0: A Plug-in for Programming Model Internals on vLLM",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7134805666",
+          "linked_url": "https://arxiv.org/abs/2603.06588",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "437ffb23ae2ef611",
+      "url": "https://news.mit.edu/2026/walter-torous-named-executive-director-mit-center-real-estate-0901",
+      "title": "Walter Torous named executive director of MIT Center for Real Estate",
+      "published_at": "2026-09-01",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "6116da9c839ce217",
+      "url": "https://news.mit.edu/2026/looking-beyond-natural-sequences-0827",
+      "title": "Looking beyond natural sequences",
+      "published_at": "2026-08-27",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "29facfa5780b28e7",
+      "url": "https://news.mit.edu/2026/ai-helps-design-new-materials-that-work-in-real-world-0826",
+      "title": "AI helps design new materials that work in the real world",
+      "published_at": "2026-08-26",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "d9b6e80ff3477f59",
+      "url": "https://news.mit.edu/2026/generating-scenarios-extreme-events-without-extreme-data-0824",
+      "title": "Generating scenarios for extreme events, without extreme data",
+      "published_at": "2026-08-24",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "c40fae91a3af5c3c",
+      "url": "https://news.mit.edu/2026/paving-way-for-greener-ammonia-production-0820",
+      "title": "Paving the way for greener ammonia production",
+      "published_at": "2026-08-20",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "47e5fa4d38e94338",
+      "url": "https://news.mit.edu/2026/when-ai-art-has-no-author-generated-images-often-cant-be-traced-to-training-data-0818",
+      "title": "When AI art has no author: Study finds generated images often can’t be traced to training data",
+      "published_at": "2026-08-18",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "5926ba0167f60987",
+      "url": "https://news.mit.edu/2026/medical-ai-assistance-benefits-vary-based-on-user-expertise-0804",
+      "title": "The benefits of medical AI assistance vary based on user expertise",
+      "published_at": "2026-08-04",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "8d2b1b80f2b60b18",
+      "url": "https://news.mit.edu/2026/alexander-rakhlin-named-director-mit-statistics-data-science-center-0803",
+      "title": "Alexander Rakhlin named director of  the MIT Statistics and Data Science Center",
+      "published_at": "2026-08-03",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "660a6401b7178f7c",
+      "url": "https://news.mit.edu/2026/turning-2d-designs-into-3d-models-for-rapid-prototyping-0716",
+      "title": "A better way to turn 2D designs into 3D models for rapid prototyping",
+      "published_at": "2026-07-16",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "41a7de913e47ec18",
+          "url": "https://doi.org/10.48550/arxiv.2603.27448",
+          "title": "GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7147317732",
+          "linked_url": "https://arxiv.org/pdf/2603.27448",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "2dfc72794bbe6e7d",
+      "url": "https://news.mit.edu/2026/3-questions-neural-transparency-and-future-of-ai-design-0715",
+      "title": "3 Questions: Neural transparency and the future of AI design",
+      "published_at": "2026-07-15",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "5f4f3d73388e3553",
+      "url": "https://news.mit.edu/2026/can-ai-build-jet-engine-jarvis-challenge-tests-ai-copilots-in-tough-tech-engineering-0714",
+      "title": "Can AI build a jet engine? JARVIS Challenge tests role of AI copilots in tough-tech engineering",
+      "published_at": "2026-07-14",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "7057161d98c69151",
+      "url": "https://news.mit.edu/2026/ai-agents-create-virtual-playgrounds-to-help-robots-get-crucial-training-data-0713",
+      "title": "AI agents create virtual playgrounds to help robots get crucial training data",
+      "published_at": "2026-07-13",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "e5e17c9a67762759",
+          "url": "https://doi.org/10.1109/cvpr52733.2024.01536",
+          "title": "Holodeck: Language Guided Generation of 3D Embodied AI Environments",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4402660086",
+          "linked_url": "https://arxiv.org/abs/2312.09067",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        },
+        {
+          "id": "f9624ab6a95176a9",
+          "url": "https://doi.org/10.1109/3dv69130.2026.00131",
+          "title": "HSM: Hierarchical Scene Motifs for Multi-Scale Indoor Scene Generation",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4417151569",
+          "linked_url": "https://arxiv.org/abs/2503.16848",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        },
+        {
+          "id": "50aa5c53fa6639cd",
+          "url": "https://doi.org/10.48550/arxiv.2602.09153",
+          "title": "SceneSmith: Agentic Generation of Simulation-Ready Indoor Scenes",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7128645082",
+          "linked_url": "https://arxiv.org/abs/2602.09153",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "a6308f1570ad2502",
+      "url": "https://news.mit.edu/2026/new-method-keeps-kids-safe-from-illegal-ai-generated-content-0713",
+      "title": "New method aims to keep kids safe from illegal AI-generated content",
+      "published_at": "2026-07-13",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "7e18bad74f159f21",
+      "url": "https://news.mit.edu/2026/tiny-robot-boats-build-floating-structures-0709",
+      "title": "Tiny robot boats build floating structures",
+      "published_at": "2026-07-09",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "aa9fc9ccabb552d7",
+      "url": "https://news.mit.edu/2026/mit-designed-educational-factory-embraces-modern-manufacturing-0708",
+      "title": "MIT-designed educational factory embraces modern manufacturing",
+      "published_at": "2026-07-08",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "15d225116275797e",
+      "url": "https://news.mit.edu/2026/agentic-ai-and-what-do-we-want-it-be-0630",
+      "title": "Q&A: What is agentic AI today, and what do we want it to be?",
+      "published_at": "2026-06-30",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "e67ec1cb4de6d14b",
+      "url": "https://news.mit.edu/2026/inaugural-mit-music-technology-research-showcase-celebrates-work-students-0629",
+      "title": "Inaugural Music Technology Research Showcase celebrates work of new graduate program’s initial students",
+      "published_at": "2026-06-29",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "146616c6fb5f21af",
+      "url": "https://news.mit.edu/2026/3-questions-beyond-data-driven-aesthetics-alexandros-haridis-0629",
+      "title": "3 Questions: Beyond data-driven aesthetics",
+      "published_at": "2026-06-29",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "cdeb37f2167c8b43",
+      "url": "https://news.mit.edu/2026/llms-help-robots-understand-vague-instructions-and-focus-key-details-0626",
+      "title": "LLMs help robots understand vague instructions and focus on key details",
+      "published_at": "2026-06-26",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "992020e67078ebe8",
+          "url": "https://doi.org/10.1109/icra57385.2026.11696140",
+          "title": "Masked IRL: LLM-Guided Reward Disambiguation from Demonstrations and Language",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7106144302",
+          "linked_url": "https://arxiv.org/abs/2511.14565",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "740ea34d8da846bd",
+      "url": "https://news.mit.edu/2026/improving-ai-agent-speed-and-energy-efficiency-0625",
+      "title": "Improving the speed and energy-efficiency of AI agents",
+      "published_at": "2026-06-25",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "0165ac26c6a067ca",
+      "url": "https://news.mit.edu/2026/new-chip-could-help-tiny-robots-traverse-complex-environments-0623",
+      "title": "New chip could help tiny robots traverse complex environments",
+      "published_at": "2026-06-23",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "d7df3fe7751a6b3e",
+          "url": "https://doi.org/10.1109/tro.2023.3348305",
+          "title": "GMMap: Memory-Efficient Continuous Occupancy Map Using Gaussian Mixture Model",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4390480635",
+          "linked_url": "https://arxiv.org/pdf/2306.03740",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        },
+        {
+          "id": "6f2b2ab3a72c0413",
+          "url": "https://doi.org/10.48550/arxiv.2603.29005",
+          "title": "Gleanmer: A 6 mW SoC for Real-Time 3D Gaussian Occupancy Mapping",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7147664412",
+          "linked_url": "https://arxiv.org/pdf/2603.29005",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "3666e701cd9b29fa",
+      "url": "https://news.mit.edu/2026/better-way-to-model-metal-alloys-behavior-0619",
+      "title": "A better way to model the behavior of metal alloys",
+      "published_at": "2026-06-19",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "01b5210dd201a903",
+          "url": "https://doi.org/10.1126/sciadv.aea9951",
+          "title": "Machine learning potentials for modeling alloys across compositions",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4415111983",
+          "linked_url": "https://doi.org/10.1126/sciadv.aea9951",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "33bbeaab7e57609c",
+      "url": "https://news.mit.edu/2026/game-theory-generalists-sometimes-win-out-over-specialists-0617",
+      "title": "In game theory, generalists sometimes win out over specialists",
+      "published_at": "2026-06-17",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "c71de984ef63e5cb",
+      "url": "https://news.mit.edu/2026/could-ai-tell-you-where-you-left-your-keys-0617",
+      "title": "Could AI tell you where you left your keys?",
+      "published_at": "2026-06-17",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "bc98a0ad20efd763",
+          "url": "https://doi.org/10.48550/arxiv.2512.00565",
+          "title": "Describe Anything Anywhere At Any Moment",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4416953174",
+          "linked_url": "https://arxiv.org/pdf/2512.00565",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "de0889c58bbd99ad",
+      "url": "https://news.mit.edu/2026/when-predicting-preferences-it-pays-to-consider-power-of-three-0611",
+      "title": "When it comes to predicting people’s preferences, it pays to consider “the power of three”",
+      "published_at": "2026-06-11",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "f0cef49b3239bda0",
+      "url": "https://news.mit.edu/2026/cartesian-helps-retailers-track-their-products-in-real-time-0605",
+      "title": "Startup helps retailers track their products in real-time",
+      "published_at": "2026-06-05",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "4bacc003f4f37fee",
+      "url": "https://news.mit.edu/2026/teaching-ai-agents-ask-better-questions-playing-battleship-0603",
+      "title": "Teaching AI agents to ask better questions by playing “Battleship”",
+      "published_at": "2026-06-03",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "b7012bd426f731bb",
+      "url": "https://news.mit.edu/2026/mit-researchers-teach-ai-models-to-interpret-charts-0603",
+      "title": "MIT researchers teach AI models to interpret charts",
+      "published_at": "2026-06-03",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [
+        {
+          "id": "08af5c79f7699e34",
+          "url": "https://doi.org/10.48550/arxiv.2603.27064",
+          "title": "ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7147548920",
+          "linked_url": "https://arxiv.org/pdf/2603.27064",
+          "linked_feed_urls": [
+            "https://news.mit.edu/rss/topic/machine-learning"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "050eb218e507afa6",
+      "url": "https://news.mit.edu/2026/whitney-newey-erwin-plein-nemmers-prize-economics-0521",
+      "title": "MIT economist Whitney Newey awarded Erwin Plein Nemmers Prize in Economics",
+      "published_at": "2026-05-21",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "a60dc0c3f97fd7d7",
+      "url": "https://news.mit.edu/2026/building-ai-models-with-chemical-principles-connor-coley-0520",
+      "title": "Building AI models that understand chemical principles",
+      "published_at": "2026-05-20",
+      "publisher": {
+        "id": "news.mit.edu",
+        "name": "MIT News"
+      },
+      "topics": [
+        {
+          "id": "dcaa8e5ecb8d70ad",
+          "name": "Machine learning"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://news.mit.edu/rss/topic/machine-learning"
+      ]
+    },
+    {
+      "id": "54ab6a90455a94bd",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073038.htm",
+      "title": "Tiny magnetic vortices could help computers work more like your brain",
+      "published_at": "2026-10-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "a9baacb01853f7e8",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222024.htm",
+      "title": "Scientists overcome a hidden obstacle to more powerful quantum computers",
+      "published_at": "2026-10-25",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "fadf2f862b798bc2",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081312.htm",
+      "title": "Cambridge scientists create a $10 chip that could put a medical lab on your wrist",
+      "published_at": "2026-10-22",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "75dbfa3dbb189064",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081308.htm",
+      "title": "MIT scientists build a tiny robot that swims using living muscle cells",
+      "published_at": "2026-10-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        },
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "c5e0ced41e4cc234",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261020085018.htm",
+      "title": "People are taking an unapproved weight-loss drug. AI found something surprising",
+      "published_at": "2026-10-21",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "fdcc7aa249c6186f",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261012185017.htm",
+      "title": "AI can act exactly like a human, but we still don't think it's conscious",
+      "published_at": "2026-10-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "e8f833c21abbe460",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261011211615.htm",
+      "title": "Physicists discover “astonishing” property of light that defies expectations",
+      "published_at": "2026-10-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "e398058e1e0abb0b",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261011211554.htm",
+      "title": "Scientists recreate a bizarre quantum effect that stops a particle cold",
+      "published_at": "2026-10-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "2f3cd75ecef93e7f",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260930020309.htm",
+      "title": "This new qubit could be 100 times less error-prone in superfluid quantum computer breakthrough",
+      "published_at": "2026-10-01",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "1d1d1e21317653f9",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260929053534.htm",
+      "title": "This light-powered AI can spot deepfakes with nearly 98% accuracy",
+      "published_at": "2026-10-01",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "faa1bd9cb2946bff",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260924020403.htm",
+      "title": "Quantum computing’s “dark horse” just proved it can go universal",
+      "published_at": "2026-09-25",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "f8b88f7f8f5e15cd",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260921081114.htm",
+      "title": "MIT’s tiny flying robot gets 450% faster with AI",
+      "published_at": "2026-09-22",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "7cf5378f3d0494ae",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260914102432.htm",
+      "title": "The shape behind the Einstein problem just revealed strange new physics",
+      "published_at": "2026-09-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "c06f94159f7422c6",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260912222856.htm",
+      "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+      "published_at": "2026-09-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c73cfc1a4988572f",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003858.htm",
+      "title": "Tiny nanolaser could cut computer energy use in half",
+      "published_at": "2026-09-11",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "f3008c581c95c7b2",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260911003845.htm",
+      "title": "Scientists just made quantum computer operations 1,000 times faster",
+      "published_at": "2026-09-11",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "32e9a1ea52742954",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260830000002.htm",
+      "title": "A “quantum bath” puts quantum entanglement on autopilot",
+      "published_at": "2026-08-31",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "17659001f0a97317",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260829035219.htm",
+      "title": "IBM quantum computer solves classically intractable problem in 15 minutes",
+      "published_at": "2026-08-30",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "a211721f14d9b975",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260826055450.htm",
+      "title": "NASA just used satellites and debris to navigate without GPS",
+      "published_at": "2026-08-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "c9c0e217074dbed8",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260816044853.htm",
+      "title": "Scientists turn DNA into a memory device that uses 100x less power",
+      "published_at": "2026-08-17",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "0a8c4651bb437a4e",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260816044850.htm",
+      "title": "Tiny robots powered by light can hunt down and collect bacteria",
+      "published_at": "2026-08-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "74b78e94ea7e379c",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260815064803.htm",
+      "title": "Scientists tracked kids for 8 years — the screen time result was unexpected",
+      "published_at": "2026-08-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "952b1ee1e28fb307",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260814011041.htm",
+      "title": "World’s first superconducting quantum heat engine could help unlock massive quantum computers",
+      "published_at": "2026-08-14",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "58d06db515651eab",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260722032127.htm",
+      "title": "MIT’s new lidar chip could give self-driving cars a wider view",
+      "published_at": "2026-07-22",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "5dd9f9f02bd7899f",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260718010149.htm",
+      "title": "New programmable photonic chip can control how fast light moves",
+      "published_at": "2026-07-21",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "0462452e36fbd508",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260713084850.htm",
+      "title": "Alan Turing's biggest AI assumption may have been wrong",
+      "published_at": "2026-07-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "d68fc0cc3f81f459",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260712011757.htm",
+      "title": "Scientists discovered the brain doesn't make decisions the way we thought",
+      "published_at": "2026-07-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "4152d47851c8ce55",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260624025516.htm",
+      "title": "Quantum mechanics once baffled scientists. Now it's changing the world",
+      "published_at": "2026-07-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "5f01f00a8ff6f417",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260621060315.htm",
+      "title": "Millions of exploding stars could soon reveal dark energy's secrets",
+      "published_at": "2026-06-29",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "145ee9c305a7511c",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260618041501.htm",
+      "title": "SpaceX wants to build AI data centers in space. Will it work?",
+      "published_at": "2026-06-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "193ec3459e9adb20",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260612032024.htm",
+      "title": "Brain-inspired chip runs near absolute zero and could transform quantum computing",
+      "published_at": "2026-06-12",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "e7c0bfba5f004936",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260610003049.htm",
+      "title": "A classic brain test exposed AI's biggest weakness",
+      "published_at": "2026-06-10",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "918adf7c7d7068be",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260604044258.htm",
+      "title": "Scientists are seriously asking if bees and ChatGPT are conscious",
+      "published_at": "2026-06-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "e13fad55718d0682",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260518041341.htm",
+      "title": "Forget electrons, this breakthrough uses light-matter particles to power AI",
+      "published_at": "2026-05-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "edd7ebc1ad407044",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260515002134.htm",
+      "title": "NASA’s new AI space chip could let spacecraft think for themselves",
+      "published_at": "2026-05-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "d4917fb7b8ec471f",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260512202355.htm",
+      "title": "New quantum algorithm solves “impossible” materials problem in seconds",
+      "published_at": "2026-05-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "602b6c0900fa5fe1",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260512202333.htm",
+      "title": "Your “um” and pauses could reveal early dementia risk",
+      "published_at": "2026-05-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "aa3ae8fbd83b19aa",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260504023844.htm",
+      "title": "AI lets chemists design molecules by simply describing them",
+      "published_at": "2026-05-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "f7d48e9fd7419991",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260429102035.htm",
+      "title": "This AI knew the answers but didn’t understand the questions",
+      "published_at": "2026-04-30",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "331bc9075c259dc1",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260420014748.htm",
+      "title": "AI swarms could hijack democracy without anyone noticing",
+      "published_at": "2026-04-20",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "be4cf9cbd13d5acb",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260417225020.htm",
+      "title": "Artificial neurons successfully communicate with living brain cells",
+      "published_at": "2026-04-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        },
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "75cef57aa6312bd7",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260417224505.htm",
+      "title": "Think AI \"knows\" what it’s doing? Scientists say think again",
+      "published_at": "2026-04-19",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "ec3bb0408b648f49",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260417224455.htm",
+      "title": "Quantum AI just got shockingly good at predicting chaos",
+      "published_at": "2026-04-17",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "0a953168404058f6",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260414075639.htm",
+      "title": "This simple change stops robot swarms from getting stuck",
+      "published_at": "2026-04-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "4e4141ffcc7bcd88",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260413043155.htm",
+      "title": "“Giant superatoms” could finally solve quantum computing’s biggest problem",
+      "published_at": "2026-04-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "fb36dae4f6e43075",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260409101103.htm",
+      "title": "This new chip could slash data center energy waste",
+      "published_at": "2026-04-10",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "3e500fdb6a9ad820",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260406192904.htm",
+      "title": "This new chip survives 1300°F (700°C) and could change AI forever",
+      "published_at": "2026-04-07",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "960e6afbddda6a58",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260405003952.htm",
+      "title": "AI breakthrough cuts energy use by 100x while boosting accuracy",
+      "published_at": "2026-04-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "46c8c3fdc6bf5f90",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260331001104.htm",
+      "title": "DNA robots could deliver drugs and hunt viruses inside your body",
+      "published_at": "2026-03-31",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        },
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "5de0acf2c3a3de1d",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064512.htm",
+      "title": "AI-powered robot learns how to harvest tomatoes more efficiently",
+      "published_at": "2026-03-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "fb8395678575069e",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315004355.htm",
+      "title": "Scientists discover AI can make humans more creative",
+      "published_at": "2026-03-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "a2fff1ffa2c2d2de",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260313002650.htm",
+      "title": "Scientists built the hardest AI test ever and the results are surprising",
+      "published_at": "2026-03-13",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "9d98530dd642d38d",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030642.htm",
+      "title": "ChatGPT as a therapist? New study reveals serious ethical risks",
+      "published_at": "2026-03-02",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "2b31e652b9d89acb",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260219040756.htm",
+      "title": "Quantum computer breakthrough tracks qubit fluctuations in real time",
+      "published_at": "2026-02-20",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "7b0aec3b5d230573",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260213223923.htm",
+      "title": "Brain inspired machines are better at math than expected",
+      "published_at": "2026-02-14",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "ce046bc4a0211e2c",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260210005419.htm",
+      "title": "AI reads brain MRIs in seconds and flags emergencies",
+      "published_at": "2026-02-10",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "739e8b049936dc0d",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260206034836.htm",
+      "title": "Scientists create smart synthetic skin that can hide images and change shape",
+      "published_at": "2026-02-06",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "6f2914d13f0dda01",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260201223737.htm",
+      "title": "A tiny light trap could unlock million qubit quantum computers",
+      "published_at": "2026-02-02",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "e2a2345ef9e659ab",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260131084626.htm",
+      "title": "“Existential risk” – Why scientists are racing to define consciousness",
+      "published_at": "2026-02-01",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "d366e46073a68094",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260131084555.htm",
+      "title": "NASA’s Perseverance rover completes the first AI-planned drive on Mars",
+      "published_at": "2026-01-31",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml"
+      ]
+    },
+    {
+      "id": "3851ebd67dc2179d",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261029072146.htm",
+      "title": "A computer scientist breaks through a limit that stood since 1996",
+      "published_at": "2026-10-30",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "0646c013cedc7d4e",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261024222031.htm",
+      "title": "AI detects “invisible” signs of pancreatic cancer years before diagnosis",
+      "published_at": "2026-10-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "1e5c0087825c2d41",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261022081302.htm",
+      "title": "A tiny defect in a crystal reveals a big quantum surprise",
+      "published_at": "2026-10-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8334a9b5195b365e",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260918024812.htm",
+      "title": "This tiny organism can shrink to one quarter its size in milliseconds",
+      "published_at": "2026-09-19",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "4c456ea1d6a6668a",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260906170132.htm",
+      "title": "Scientists find a way to slash computer memory energy use by orders of magnitude",
+      "published_at": "2026-09-06",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "a8d610b4f01fc8cc",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260903064215.htm",
+      "title": "AI can now control fusion plasma faster than humans can react",
+      "published_at": "2026-09-06",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "416995ff1fca0a61",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260827010504.htm",
+      "title": "AI searched 100 million possibilities and found a cheaper way to 3D-print a NASA rocket alloy",
+      "published_at": "2026-08-27",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "2172c195b003f25a",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260823014943.htm",
+      "title": "A hidden “on switch” in human DNA has finally been decoded",
+      "published_at": "2026-08-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8d70837b7ae0eee8",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260804034634.htm",
+      "title": "Claude Fable 5 AI finds a tiny formula that topples an 87-year-old math conjecture",
+      "published_at": "2026-08-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c8b9418f22d295ad",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260716023603.htm",
+      "title": "New AI blood test predicts heart disease 15 years early",
+      "published_at": "2026-07-19",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c796cac47633cf5f",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260708022202.htm",
+      "title": "Harvard scientists turn a silicon chip into a DNA writing machine",
+      "published_at": "2026-07-08",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        },
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "434fdb7a2dc7d878",
+      "url": "https://www.sciencedaily.com/releases/2026/07/260707025047.htm",
+      "title": "Scientists used AI to crack one of water's biggest mysteries",
+      "published_at": "2026-07-08",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c57d24a5c4125fa2",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260626030426.htm",
+      "title": "New AI model reveals how neutron star mergers forge heavy elements",
+      "published_at": "2026-07-08",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "773db9f8cf244df7",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024621.htm",
+      "title": "Scientists discover a strange property in rice and turn it into a smart material",
+      "published_at": "2026-06-11",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c480996a35e5bef4",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260611024557.htm",
+      "title": "AI could uncover new physics faster but there’s a surprising catch",
+      "published_at": "2026-06-11",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "67f73c670d734c4d",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260605023357.htm",
+      "title": "AI-designed universal coronavirus vaccine passes first human trial",
+      "published_at": "2026-06-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "315f22c4867209aa",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260601025352.htm",
+      "title": "The forgotten organ that could predict how long you live",
+      "published_at": "2026-06-01",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "6167dcf62171af69",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260530053412.htm",
+      "title": "New 3D silicon chip breakthrough could extend Moore’s Law for years",
+      "published_at": "2026-05-30",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8183316afbdd1501",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260528074028.htm",
+      "title": "Stanford quantum computing breakthrough uses twisted light to work without extreme cooling",
+      "published_at": "2026-05-30",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "a76607d79e7beacb",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260525000501.htm",
+      "title": "AI-powered spectrometer chip shrinks lab technology to the size of a grain of sand",
+      "published_at": "2026-05-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c49f3ca5c144121a",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260525000448.htm",
+      "title": "AI won’t replace you but someone using AI might",
+      "published_at": "2026-05-25",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "3460715e671acc41",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260523103914.htm",
+      "title": "AI scans 400,000 Reddit posts and finds hidden Ozempic side effects",
+      "published_at": "2026-05-24",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8464841eb72d5302",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260522023308.htm",
+      "title": "New AI body map reveals obesity’s hidden attack on facial nerves",
+      "published_at": "2026-05-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "87806b3291588331",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260522023127.htm",
+      "title": "Ordinary WiFi can now identify people with near perfect accuracy",
+      "published_at": "2026-05-22",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "800a33adb1ef3b70",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260517211433.htm",
+      "title": "AI reveals the invisible magnetic chaos wasting energy inside electric motors",
+      "published_at": "2026-05-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "d77c7c4495e934b0",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260510234715.htm",
+      "title": "JUPITER supercomputer breaks world record with 50-qubit quantum simulation",
+      "published_at": "2026-05-10",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8e5cfba4f06c53b8",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260505234605.htm",
+      "title": "New AI method tackles one of science’s hardest math problems",
+      "published_at": "2026-05-06",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "7790697f55adc16f",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260502233926.htm",
+      "title": "Powerful AI finds 100+ hidden planets in NASA data including rare and extreme worlds",
+      "published_at": "2026-05-03",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8d1ecd6c9650dad4",
+      "url": "https://www.sciencedaily.com/releases/2026/05/260502233908.htm",
+      "title": "Scientists built a memory chip that breaks the rules of miniaturization",
+      "published_at": "2026-05-03",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "5b0667d5ae12b7e0",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260422044635.htm",
+      "title": "AI just discovered new physics in the fourth state of matter",
+      "published_at": "2026-04-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "f00c74a9de978880",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260422044633.htm",
+      "title": "This new brain-like chip could slash AI energy use by 70%",
+      "published_at": "2026-04-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "734ad8bfded8d344",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260415043612.htm",
+      "title": "AI identifies early risk patterns for skin cancer",
+      "published_at": "2026-04-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "c19a4c9fb39d16ed",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326011452.htm",
+      "title": "Deepfake X-rays are so real even doctors can’t tell the difference",
+      "published_at": "2026-03-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "8022762d4c63d163",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260318033103.htm",
+      "title": "AI uses as much energy as Iceland but scientists aren’t worried",
+      "published_at": "2026-03-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "7793ba1ad02f2d82",
+          "name": "Robotics"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/robotics.xml"
+      ]
+    },
+    {
+      "id": "e23b033e517e8453",
+      "url": "https://www.sciencedaily.com/releases/2026/09/260901070526.htm",
+      "title": "MIT turns bacteria into living transistors",
+      "published_at": "2026-09-04",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "4679fece56207118",
+      "url": "https://www.sciencedaily.com/releases/2026/08/260808234943.htm",
+      "title": "A 0.42-nanometer breakthrough could push transistors beyond silicon",
+      "published_at": "2026-08-09",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "a406214056b14942",
+      "url": "https://www.sciencedaily.com/releases/2026/06/260601025343.htm",
+      "title": "New light-powered chip could accelerate AI and quantum computing",
+      "published_at": "2026-06-02",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "876946d5c3d0fb2d",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260328212132.htm",
+      "title": "Scientists just found a way to store massive data using light in 3 dimensions",
+      "published_at": "2026-03-29",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "b9100b1c88c6135c",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024249.htm",
+      "title": "This tiny implant, smaller than a grain of salt, can read your brain",
+      "published_at": "2026-03-24",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "285bd03821db808f",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
+      "title": "Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+      "published_at": "2026-03-17",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "251b2f3c2e1703e1",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260120000330.htm",
+      "title": "Unbreakable? Researchers warn quantum computers have serious security flaws",
+      "published_at": "2026-01-20",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "3ec2b5d1d6b7ec05",
+      "url": "https://www.sciencedaily.com/releases/2026/01/260115220608.htm",
+      "title": "Stretchable OLED displays take a big leap forward",
+      "published_at": "2026-01-15",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "d810f25638030a45",
+      "url": "https://www.sciencedaily.com/releases/2025/12/251226045341.htm",
+      "title": "This tiny chip could change the future of quantum computing",
+      "published_at": "2025-12-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "9c7657c61f056257",
+      "url": "https://www.sciencedaily.com/releases/2025/12/251223084857.htm",
+      "title": "This new 3D chip could break AI’s biggest bottleneck",
+      "published_at": "2025-12-24",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "93efb3828a382638",
+      "url": "https://www.sciencedaily.com/releases/2025/12/251209234139.htm",
+      "title": "Scientists reveal a tiny brain chip that streams thoughts in real time",
+      "published_at": "2025-12-09",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "18bfabf4907142e3",
+      "url": "https://www.sciencedaily.com/releases/2025/12/251208052515.htm",
+      "title": "This tiny implant sends secret messages to the brain",
+      "published_at": "2025-12-08",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "196904cd929dd24a",
+      "url": "https://www.sciencedaily.com/releases/2025/11/251128050509.htm",
+      "title": "Scientists uncover the brain’s hidden learning blocks",
+      "published_at": "2025-11-28",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "e6a37c643ae17183",
+      "url": "https://www.sciencedaily.com/releases/2025/10/251022023118.htm",
+      "title": "Stanford’s tiny eye chip helps the blind see again",
+      "published_at": "2025-10-22",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "30cb7412ae7b9693",
+      "url": "https://www.sciencedaily.com/releases/2025/09/250925025409.htm",
+      "title": "The quantum internet just went live on Verizon’s network",
+      "published_at": "2025-09-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "0563875f7a6b6280",
+      "url": "https://www.sciencedaily.com/releases/2025/09/250908175458.htm",
+      "title": "Light-powered chip makes AI 100 times more efficient",
+      "published_at": "2025-09-09",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "7979dd5754df131e",
+      "url": "https://www.sciencedaily.com/releases/2025/08/250814081937.htm",
+      "title": "Cornell  researchers build first ‘microwave brain’ on a chip",
+      "published_at": "2025-08-14",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "c6572efeb346e0bd",
+      "url": "https://www.sciencedaily.com/releases/2025/06/250620064909.htm",
+      "title": "MIT's tiny 5G receiver could make smart devices last longer and work anywhere",
+      "published_at": "2025-06-20",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "e03e867867c2be49",
+      "url": "https://www.sciencedaily.com/releases/2025/06/250616040237.htm",
+      "title": "Robots that feel heat, pain, and pressure? This new “skin” makes it possible",
+      "published_at": "2025-06-16",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "86bd95f75e914ed4",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250527124444.htm",
+      "title": "A chip with natural blood vessels",
+      "published_at": "2025-05-27",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "569ce95b57a35f06",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250523120355.htm",
+      "title": "Efficiency upgrade for OLED screens: A route to blue PHOLED longevity",
+      "published_at": "2025-05-23",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "a57ae14dbd877368",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250519131041.htm",
+      "title": "AI chip developed for decentralized use without the cloud",
+      "published_at": "2025-05-19",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "f44242222cee1c46",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250519131026.htm",
+      "title": "Tiny microlaser sensors offer supercharged biosensing",
+      "published_at": "2025-05-19",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "daf441bfce30a95c",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250516133232.htm",
+      "title": "Log in to your computer with a secret message encoded in a molecule",
+      "published_at": "2025-05-16",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "26001c38c4528149",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250505171017.htm",
+      "title": "Robotic touch sensors are not just skin deep",
+      "published_at": "2025-05-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "f91ab2087196e014",
+      "url": "https://www.sciencedaily.com/releases/2025/05/250501122459.htm",
+      "title": "Artificial sense of touch, improved",
+      "published_at": "2025-05-01",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "56ed688214da4011",
+      "url": "https://www.sciencedaily.com/releases/2025/04/250430142734.htm",
+      "title": "How is it we feel a sense of agency over our movements?",
+      "published_at": "2025-04-30",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "8beed8bf6313a42d",
+      "url": "https://www.sciencedaily.com/releases/2025/04/250414124345.htm",
+      "title": "How the brain controls movement under uncertainty",
+      "published_at": "2025-04-14",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "b29c4ccf507da0f1",
+      "url": "https://www.sciencedaily.com/releases/2025/04/250403183134.htm",
+      "title": "Nurture more important than nature for robotic hand",
+      "published_at": "2025-04-03",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "3889dde921a28205",
+      "url": "https://www.sciencedaily.com/releases/2025/04/250402122155.htm",
+      "title": "World's smallest pacemaker is activated by light",
+      "published_at": "2025-04-02",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "40b024042379268c",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250331122223.htm",
+      "title": "Chance discovery improves stability of bioelectronic material used in medical implants, computing and biosensors",
+      "published_at": "2025-03-31",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "f405602eac34d493",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250327142006.htm",
+      "title": "Revolutionary brain-computer interface decoding system",
+      "published_at": "2025-03-27",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "7860d7ef6d6cccd0",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250327142004.htm",
+      "title": "The hidden spring in your step",
+      "published_at": "2025-03-27",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "97e0597c4b68ea67",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250326122935.htm",
+      "title": "Smart insoles that could change the game for sports and health",
+      "published_at": "2025-03-26",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "7da7b33e27068f4d",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250325141543.htm",
+      "title": "Revolutionizing touch: Researchers explore the future of wearable multi-sensory haptic technology",
+      "published_at": "2025-03-25",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "343848156b72b4eb",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250320145034.htm",
+      "title": "Engineer develops new security protocol to protect miniaturized wireless medical implants from cyberthreats",
+      "published_at": "2025-03-20",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "bef8b8157ebe2fc5",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250317163528.htm",
+      "title": "Artificial muscle flexes in multiple directions, offering a path to soft, wiggly robots",
+      "published_at": "2025-03-17",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "3ce67994ea15fc61",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250306153135.htm",
+      "title": "Paralyzed man moves robotic arm with his thoughts",
+      "published_at": "2025-03-06",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "2272903556181521",
+      "url": "https://www.sciencedaily.com/releases/2025/03/250305164326.htm",
+      "title": "Feeling is believing: Bionic hand 'knows' what it's touching, grasps like a human",
+      "published_at": "2025-03-05",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "0f17261f4b56f6cd",
+      "url": "https://www.sciencedaily.com/releases/2025/02/250227165534.htm",
+      "title": "New ocelot chip makes strides in quantum computing",
+      "published_at": "2025-02-27",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "d8dddde96a296009",
+      "url": "https://www.sciencedaily.com/releases/2025/02/250227125801.htm",
+      "title": "Sea water purification technique outperforms commonly used materials, even activated carbon",
+      "published_at": "2025-02-27",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "3a7ae1ff07d1231e",
+      "url": "https://www.sciencedaily.com/releases/2025/02/250212151423.htm",
+      "title": "Biohybrid hand gestures with human muscles",
+      "published_at": "2025-02-12",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "03963efdfe04080a",
+      "url": "https://www.sciencedaily.com/releases/2025/01/250124151126.htm",
+      "title": "Progress and challenges in brain implants",
+      "published_at": "2025-01-24",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "4522da77d4b888b8",
+      "url": "https://www.sciencedaily.com/releases/2025/01/250121130141.htm",
+      "title": "'Unprecedented' level of control allows person without use of limbs to operate virtual quadcopter",
+      "published_at": "2025-01-21",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "3568a6f5c81e19af",
+      "url": "https://www.sciencedaily.com/releases/2025/01/250116161334.htm",
+      "title": "Fine-tuned brain-computer interface makes prosthetic limbs feel more real",
+      "published_at": "2025-01-16",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "654acb0021737450",
+      "url": "https://www.sciencedaily.com/releases/2025/01/250107140908.htm",
+      "title": "Advancements in neural implant research enhance durability",
+      "published_at": "2025-01-07",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "430d8db67cc41f12",
+      "url": "https://www.sciencedaily.com/releases/2024/12/241218131321.htm",
+      "title": "Engineers grow 'high-rise' 3D chips",
+      "published_at": "2024-12-18",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "6c601c512514a4b1",
+      "url": "https://www.sciencedaily.com/releases/2024/12/241210142029.htm",
+      "title": "Rethinking the quantum chip",
+      "published_at": "2024-12-10",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "e39fd845c5b04330",
+      "url": "https://www.sciencedaily.com/releases/2024/12/241204183122.htm",
+      "title": "X-ray vision: Seeing through the mystery of an X-ray emissions mechanism",
+      "published_at": "2024-12-04",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "29b68ecae97a3092",
+      "url": "https://www.sciencedaily.com/releases/2024/12/241202123322.htm",
+      "title": "Photonic processor could enable ultrafast AI computations with extreme energy efficiency",
+      "published_at": "2024-12-02",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "35275b1465964b81",
+      "url": "https://www.sciencedaily.com/releases/2024/10/241031124459.htm",
+      "title": "Wearable ultrasound tech for muscle monitoring opens new possibilities in healthcare and human-machine interfaces",
+      "published_at": "2024-10-31",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "f743d30a01854ea3",
+      "url": "https://www.sciencedaily.com/releases/2024/10/241024131917.htm",
+      "title": "Non-electric touchpad takes sensor technology to extreme conditions",
+      "published_at": "2024-10-24",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "a29b4f9cafe7aed2",
+      "url": "https://www.sciencedaily.com/releases/2024/10/241024131742.htm",
+      "title": "New method of flexing on electronics",
+      "published_at": "2024-10-24",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "e3e1f8e6b9abd1be",
+      "url": "https://www.sciencedaily.com/releases/2024/10/241017112732.htm",
+      "title": "Controlling prosthetic hands more precisely by the power of thought",
+      "published_at": "2024-10-17",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "d84dfe3a38750263",
+      "url": "https://www.sciencedaily.com/releases/2024/10/241009121335.htm",
+      "title": "Ultra-sensitive robotic 'finger' can take patient pulses, check for lumps",
+      "published_at": "2024-10-09",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "0dd5685da8fe33eb",
+      "url": "https://www.sciencedaily.com/releases/2024/10/241009121229.htm",
+      "title": "A matter of taste: Electronic tongue reveals AI 'inner thoughts'",
+      "published_at": "2024-10-09",
+      "publisher": {
+        "id": "sciencedaily.com",
+        "name": "ScienceDaily"
+      },
+      "topics": [
+        {
+          "id": "600aa2b0b7e6655e",
+          "name": "Neural interfaces"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://www.sciencedaily.com/rss/computers_math/neural_interfaces.xml"
+      ]
+    },
+    {
+      "id": "1df7478eaeec06c0",
+      "url": "https://news.stanford.edu/stories/2025/12/ai-benchmarks-flaws-models-bugs-research",
+      "title": "Researchers work to squash ‘fantastic bugs’ hidden in AI benchmarks",
+      "published_at": "2025-12-08",
+      "publisher": {
+        "id": "news.stanford.edu",
+        "name": "Stanford Report"
+      },
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [
+        {
+          "id": "9821c2d9bfc537b4",
+          "url": "https://doi.org/10.52202/085713-2118",
+          "title": "Fantastic Bugs and Where to Find Them in AI Benchmarks",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4416592988",
+          "linked_url": "https://arxiv.org/abs/2511.16842",
+          "linked_feed_urls": []
+        }
+      ],
+      "feed_urls": []
+    }
+  ]
+}
