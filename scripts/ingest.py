@@ -12,7 +12,8 @@ CONSTRAINTS = [
 IMPORT_QUERY = """
 UNWIND $rows AS row
 MERGE (a:Article {id: row.id})
-SET a.url = row.url, a.title = row.title, a.published_at = row.published_at
+SET a.url = row.url, a.title = row.title, a.published_at = row.published_at,
+    a.authors = coalesce(row.authors, [])
 MERGE (publisher:Publisher {id: row.publisher.id})
 SET publisher.name = row.publisher.name
 MERGE (a)-[:PUBLISHED_BY]->(publisher)
