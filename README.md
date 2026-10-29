@@ -1,43 +1,110 @@
-# SignalGraph — proposed AI news intelligence project
+# Traice
 
-SignalGraph connects AI news stories to research papers, organizations and topics. It helps a reader explore what is being reported, trace explicit references to research, and see where possible connections remain unverified. This is a project proposal; the application has not yet been implemented.
+**Trace AI news back to its research.** Traice is a Level 2 graph-engineering project that connects AI articles, publishers, topics and linked research papers. Browse an article, follow its evidence and explore related coverage; ask a supported natural-language question and inspect the Cypher and evidence returned.
 
-## The product
+[![CI](https://github.com/lszefner/moviegraph/actions/workflows/ci.yml/badge.svg)](https://github.com/lszefner/moviegraph/actions/workflows/ci.yml)
 
-A reader can explore the evidence behind an AI story, compare coverage across sources, follow connections between research and reporting, and ask natural-language questions. Each answer should link to its supporting records and distinguish a documented relationship from an inferred suggestion. A news mention is not proof of endorsement, causation or technical accuracy.
+Traice is an educational demo, not a fact-checker. A linked paper does not verify every claim in an article; a shared feed topic does not mean articles cover the same event. No paper found means none was resolved in this snapshot, not that no paper exists.
 
-## Proposed data and graph
+## Quick start
 
-- **News:** a small, dated snapshot of AI-related article metadata from selected publisher feeds, subject to source access and usage terms.
-- **Research:** AI-related paper metadata and citation links from [OpenAlex](https://help.openalex.org/data/works/).
-- **Graph:** `Article`, `Publisher`, `Paper`, `Organization` and `Topic` nodes; article-to-publisher, article-to-topic, paper-to-topic and paper-to-paper citation relationships. An article-to-paper reference is recorded as explicit only when supported by a source link or a manually verified record. Candidate matches are separate, labeled suggestions with provenance and validation status.
+Requires Docker with Compose and internet access on first startup. Neo4j downloads the GDS plugin; the local model is optional for the non-AI endpoints. Create a local environment file and replace the example password (at least eight characters):
 
-The two-source join is a project risk: coverage, publisher permissions, stable links and match quality must be measured before finalizing the schema. A pinned fixture and dated source snapshot make the demo reproducible.
+```sh
+cp .env.example .env
+# Edit NEO4J_PASSWORD in .env, then:
+make docker-run
+docker compose ps
+docker compose exec api python scripts/ingest.py
+```
 
-## Proposed API and demonstration
+Open [Swagger](http://localhost:8080/docs), or Neo4j Browser at [localhost:7474](http://localhost:7474). A persistent database volume retains graph data when the stack stops. Import uses `MERGE`: rerunning updates and adds records but does not remove stale ones. To start from a clean snapshot, deliberately remove the project's data volume only after deciding the existing data can be discarded. See [data provenance](data/README.md) and [stack notes](infra/README.md).
 
-1. `GET /api/articles/{id}/evidence` — sources, topics and explicitly linked papers.
-2. `GET /api/topics/{id}/connections` — bounded paths connecting coverage and research.
-3. `GET /api/papers/{id}/coverage` — related articles, separating explicit references from candidates.
-4. `GET /api/topics/{id}/trends` — article and paper counts over time, with dataset-window caveats.
-5. `POST /api/ask` — natural-language-to-Cypher with validation, read-only access, bounded execution and structured evidence. Demonstrate a successful request and rejection of an unsafe generated query.
+For the natural-language feature, install and start [Ollama](https://ollama.com/), run `ollama pull qwen2.5:3b` on the host and use the model settings in `.env`. Ollama is not a Compose service. A reachable local server and downloaded model are required; a missing model returns a service error. Do not expose the demo stack to the public.
 
-At least two endpoints must incorporate pathfinding or graph algorithms, and at least three must demonstrate advanced graph queries. Exact contracts depend on the data spike.
+## Demo: what research is behind an AI story?
 
-## Delivery sequence
+1. Open `/docs` and call `GET /api/articles` to browse articles. For a known example, call `GET /api/articles/1df7478eaeec06c0/evidence` to see the Stanford benchmark article and its linked paper.
+2. Call `GET /api/articles/{article_id}/related` for stories connected by shared feed topics, and `GET /api/papers/{paper_id}/coverage` for articles referencing a particular paper. An empty result is a valid outcome for sparse data.
+3. With Ollama running, call `POST /api/ask` with `{"question":"Which articles with linked papers are about artificial intelligence?"}`. Inspect the returned query, parameters and evidence. The model selects one of two fixed query templates; it cannot compose arbitrary Cypher. Model output may vary or be rejected.
+4. Run `make test` to demonstrate rejection of unsupported or unsafe generated queries. This is an automated guardrail test; a successful live model request must be demonstrated separately.
+5. Run the graph and ML scripts below and inspect their actual output. Explain the coverage and sampling limitations rather than interpreting similarity as truth.
 
-1. Inspect both sources, validate a small joinable dataset, decide a defensible graph schema and establish API contracts and a shared fixture.
-2. Bring up Neo4j/GDS, FastAPI and Nginx; import the fixture and demonstrate an evidence endpoint and an early guarded natural-language query.
-3. Import a reproducible source snapshot; implement paths, coverage and trends, with source citations and explicit uncertainty.
-4. Add a GDS projection and two justified algorithms, plus a time-split link-prediction experiment against a simple baseline. Define the target from observable explicit links and check that there are enough positive examples before committing to it; otherwise choose a feasible classification task.
-5. Complete testing, performance measurements, documentation, public image publication and a clean-start demo rehearsal.
+## API
 
-## Parallel work and contribution
+| Endpoint | Purpose |
+| --- | --- |
+| `GET /health` | API process liveness, not database connectivity |
+| `GET /api/articles?limit=20&offset=0` | Browse the snapshot |
+| `GET /api/articles/{id}/evidence` | Publisher, feed topics and linked papers |
+| `GET /api/articles/{id}/related` | Stories connected by shared feed topics |
+| `GET /api/papers/{id}/coverage` | Articles with paper-reference edges |
+| `GET /api/topics/{id}/connections` | Bounded article–topic–article paths |
+| `POST /api/ask` | Supported questions to validated queries and structured evidence |
 
-Parallel streams: data and graph modeling; graph queries, algorithms and ML; API integration; LLM and guardrails; infrastructure and quality. Agree on shared contracts first and integrate a small end-to-end slice early. Use feature branches and substantive, honestly attributed commits. Every team member should have a substantial merged PR, with meaningful reviews and at least two constructive comments per PR. Track both contribution balance and understanding; do not manufacture commits.
+IDs and response examples are available from `/api/articles` and `/docs`. Queries use parameters and explicit limits; the API returns 404 for unknown article, topic or paper IDs and 503 for database or model failures.
 
-## Assignment requirements
+## Graph model
 
-The supplied assignment permits a custom project with comparable scope. The full rubric includes at least three Compose services, four endpoints with three advanced queries, pathfinding or graph algorithms in two endpoints, GDS projection and two algorithms, an ML workflow, NL-to-Cypher or an agent, tests with 60% coverage, Pylint at least 9.5, a public container image, diagrams, a notebook and documented modeling decisions. Level 3/3+ requires a genuine LangGraph agent; the initial proposal targets Level 2 while retaining the rubric's GDS and ML requirements. Confirm the project and its level with the instructor.
+```mermaid
+graph LR
+    A[Article] -->|PUBLISHED_BY| P[Publisher]
+    A -->|HAS_TOPIC| T[Topic]
+    A -->|REFERENCES: source and method| R[Paper]
+    R -->|CITES: OpenAlex| R2[Paper]
+```
 
-Repository name `moviegraph` is temporary and still reflects the original idea.
+Unique IDs are constrained for all four labels. Topics are nodes because shared-topic traversal is a core use case; a string-list property would be simpler but less direct for this traversal. Ratings or generic `RELATED_TO` edges are deliberately absent: feed topic membership and explicit links have different meanings. The stored source and method identify where a paper link was found; OpenAlex provides canonical work metadata and citation links. Article and paper identities are not evidence that the story is accurate.
+
+### Modeling alternatives and AI-generated baseline
+
+A basic AI-generated starting schema for the same prompt might be `(:Article)-[:ABOUT]->(:Topic)` and `(:Article)-[:RELATED_TO]->(:Paper)`, with a publisher string on the article. We chose explicit `Publisher` nodes and separate `HAS_TOPIC`, `REFERENCES` and `CITES` relationships: that supports source comparison, preserves the difference between broad topic labels and paper links, and exposes provenance on each reference. A generic `RELATED_TO` edge would erase those distinctions. The graph does not infer unsupported claim-level evidence or represent link candidates as verified facts.
+
+## Architecture
+
+```mermaid
+flowchart LR
+    U[Reader / Swagger] -->|localhost:8080| N[Nginx]
+    N -->|HTTP :8000| A[FastAPI]
+    A -->|Bolt :7687| DB[(Neo4j 5 + GDS)]
+    A -. "optional HTTP :11434" .-> O[Ollama on host]
+    D["Dated article snapshot + OpenAlex metadata"] --> I[Import script]
+    I -->|Bolt| DB
+    G[GDS / ML scripts] --> DB
+    G --> D
+```
+
+The collector builds a dated metadata snapshot from selected feeds and OpenAlex, plus a manually checked example. Feed-derived links are not the same as a manual verification of the article page. See [data/README.md](data/README.md) for sources, collection rules and limits. The snapshot is a convenience sample, not representative coverage, and redistribution terms need review before wider distribution.
+
+## Graph algorithms and ML
+
+After importing the snapshot:
+
+```sh
+docker compose exec api python scripts/graph_analysis.py
+docker compose exec api python scripts/topic_classifier.py data/articles.json
+```
+
+The first script makes a temporary GDS Article–Topic projection, computes weakly connected component statistics and node similarity, then drops the projection. Similarity represents shared feed topics, not a shared event or source. The second evaluates a simple title-based classifier for recorded single feed topics against a majority-class baseline, with a chronological holdout. It is a learning exercise, not a truth detector. Method and limitations: [graph analysis notes](docs/analysis.md).
+
+## Guardrails and limitations
+
+The LLM chooses one of two fixed, parameterized query templates and a bounded search term. Only exact allowlisted query text is executed, in a read transaction with a timeout and result limit; unsupported, malformed or unsafe outputs are rejected. These controls reduce risk but do not make the model's interpretation infallible. Neo4j Community in this setup uses the configured privileged account, so this is **not** an independent database least-privilege boundary. The model may select the wrong supported template or search phrase. Review returned evidence and use the links to inspect the original material.
+
+## Development
+
+```sh
+make help
+make install
+make lint
+make test
+# Against the running stack, export the .env values first:
+set -a; source .env; set +a
+make test-integration
+```
+
+`make run` starts the API locally and requires Neo4j and exported credentials. CI runs lint, unit/API tests with coverage, and Compose configuration validation; integration tests are opt-in and require the stack. `demo.ipynb` explores the snapshot and graph; notebook dependencies and execution steps are described inside it. Query-performance comparisons, public container publication, screenshots, and live-model evaluation should be recorded only after they are actually completed.
+
+## Contributions
+
+Use feature branches, meaningful commits and substantive PRs with review. The assignment calls for balanced contributions and at least one substantial merged PR per team member. Do not manufacture commits or misrepresent authorship. The checked-in [assignment](ASSIGNMENT.md) is the authoritative rubric.
