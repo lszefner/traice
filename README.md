@@ -6,29 +6,60 @@
 
 Traice is an educational demo, not a fact-checker. A linked paper does not verify every claim in an article; a shared feed topic does not mean articles cover the same event. No paper found means none was resolved in this snapshot, not that no paper exists.
 
-## Quick start
+## Run the demo
 
-Requires Docker with Compose and internet access on first startup. Neo4j downloads the GDS plugin; the local model is optional for the non-AI endpoints. Create a local environment file and replace the example password (at least eight characters):
+**What you will see:** Traice connects AI news articles to publishers, topics, and research papers. The demo uses a saved dataset, so you do not need to collect data or set up an LLM to explore it. The interface is the API's interactive Swagger page, not the illustrated launch-video interface.
 
-```sh
+### 1. Start Traice
+
+You need Git, Docker Desktop (or another Docker installation with Compose), and access to this private repository. Start Docker first. The first run downloads the Neo4j, GDS, API, and Nginx images and may take a few minutes.
+
+```bash
+git clone https://github.com/lszefner/traice.git
+cd traice
 cp .env.example .env
-# Edit NEO4J_PASSWORD in .env, then:
 make docker-run
-docker compose ps
-docker compose exec api python scripts/ingest.py
+docker compose exec -T api python scripts/ingest.py
 ```
 
-Open [Swagger](http://localhost:8080/docs), or Neo4j Browser at [localhost:7474](http://localhost:7474). A persistent database volume retains graph data when the stack stops. Import uses `MERGE`: rerunning updates and adds records but does not remove stale ones. To start from a clean snapshot, deliberately remove the project's data volume only after deciding the existing data can be discarded. See [data provenance](data/README.md) and [stack notes](infra/README.md).
+The example `.env` uses a local demo password. You can change `NEO4J_PASSWORD` **before the first startup**; it must be at least eight characters. If you already have a `.env`, keep it instead of copying over it. If the import says a container is not ready, wait for `docker compose ps` to show Neo4j and the API as healthy and retry the import. Re-running the import is safe: it adds or updates records, but does not remove old ones.
 
-For the natural-language feature, install and start [Ollama](https://ollama.com/), run `ollama pull qwen2.5:3b` on the host and use the model settings in `.env`. Ollama is not a Compose service. A reachable local server and downloaded model are required; a missing model returns a service error. Do not expose the demo stack to the public.
+### 2. Explore a real example
 
-## Demo: what research is behind an AI story?
+Open [the example article's evidence](http://localhost:8080/api/articles/1df7478eaeec06c0/evidence). You should see a Stanford Report article about AI benchmarks and its explicitly linked research paper, including source URLs. This link works **on the computer running Traice**, after the import.
 
-1. Open `/docs` and call `GET /api/articles` to browse articles. For a known example, call `GET /api/articles/1df7478eaeec06c0/evidence` to see the Stanford benchmark article and its linked paper.
-2. Call `GET /api/articles/{article_id}/related` for stories connected by shared feed topics, and `GET /api/papers/{paper_id}/coverage` for articles referencing a particular paper. An empty result is a valid outcome for sparse data.
-3. With Ollama running, call `POST /api/ask` with `{"question":"Which articles with linked papers are about artificial intelligence?"}`. Inspect the returned query, parameters and evidence. The model selects one of two fixed query templates; it cannot compose arbitrary Cypher. Model output may vary or be rejected.
-4. Run `make test` to demonstrate rejection of unsupported or unsafe generated queries. This is an automated guardrail test; a successful live model request must be demonstrated separately.
-5. Run the graph and ML scripts below and inspect their actual output. Explain the coverage and sampling limitations rather than interpreting similarity as truth.
+For the interactive demo, open [localhost:8080/docs](http://localhost:8080/docs):
+
+1. Open **GET /api/articles**, click **Try it out**, then **Execute** to browse the dataset.
+2. Open **GET /api/articles/{article_id}/evidence**, enter `1df7478eaeec06c0`, and execute it to see the article and paper.
+3. Try **GET /api/articles/{article_id}/related** with the same ID to see shared-topic connections. A shared topic is not proof that two articles cover the same event.
+
+### 3. Ask a question (optional)
+
+Install and start [Ollama](https://ollama.com/), then download the default model on your computer:
+
+```bash
+ollama pull qwen2.5:3b
+```
+
+With Ollama running, open **POST /api/ask** in Swagger, click **Try it out**, and submit:
+
+```json
+{"question": "Which papers are linked to the fantastic bugs article?"}
+```
+
+The response includes the selected query, search term, and graph evidence. This feature needs a reachable Ollama server and downloaded model; the other endpoints work without it. Model interpretation can vary, and an unsupported question may be rejected or misunderstood. If Ollama is unavailable, `/api/ask` returns a service error. See [stack notes](infra/README.md) for configuration and troubleshooting.
+
+### 4. Run the graph analysis (optional)
+
+```bash
+docker compose exec -T api python scripts/graph_analysis.py
+docker compose exec -T api python scripts/topic_classifier.py data/articles.json
+```
+
+The first command runs two GDS algorithms; the second evaluates a simple topic classifier. Their limitations are described in [graph analysis notes](docs/analysis.md). To stop the stack without deleting the graph, run `docker compose down` from the repository directory.
+
+For the assignment checks, install Python 3.11+ and run `make install`, `make lint`, and `make test`. See [Development](#development) for integration tests. The snapshot and its limitations are documented in [data provenance](data/README.md).
 
 ## API
 
