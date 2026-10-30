@@ -107,6 +107,10 @@ make test-integration
 
 `make run` starts the API locally and requires Neo4j and exported credentials. CI runs lint, unit/API tests with coverage, and Compose configuration validation; integration tests are opt-in and require the stack. `demo.ipynb` explores the snapshot and graph; notebook dependencies and execution steps are described inside it. Query-performance comparisons, public container publication, screenshots, and live-model evaluation should be recorded only after they are actually completed.
 
+## API container image
+
+The application-only image publishing workflow excludes the separately sourced data snapshot. Registry publication, package visibility and anonymous pull must be verified before the assignment’s public-image criterion can be claimed. See [image publishing](infra/PUBLIC-IMAGE.md).
+
 ## Contributions
 
 Use feature branches, meaningful commits and substantive PRs with review. The assignment calls for balanced contributions and at least one substantial merged PR per team member. Do not manufacture commits or misrepresent authorship. The checked-in [assignment](ASSIGNMENT.md) is the authoritative rubric.
