@@ -2,4 +2,4 @@
 !Dockerfile.public
 !requirements.txt
 !app/
-!app/**
+!app/*.py
