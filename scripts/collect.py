@@ -36,7 +36,7 @@ def paper_links(text):
     """Extract explicit arXiv and DOI URLs from feed content."""
     links = set()
     for match in re.finditer(r'https?://(?:www\.)?arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})(?:v\d+)?(?:\.pdf)?', html.unescape(text), re.I):
-        links.add("https://doi.org/10.48550/arXiv." + match.group(1))
+        links.add(match.group(0))
     for match in re.finditer(r'https?://(?:dx\.)?doi\.org/(10\.\d{4,9}/[^\s<>"\']+)', html.unescape(text), re.I):
         links.add("https://doi.org/" + match.group(1).rstrip('.,;)]'))
     return sorted(links)
@@ -59,7 +59,9 @@ def collect():
                 continue
             row = articles.setdefault(url, {"id": stable_id(url), "url": url, "title": title,
                 "published_at": published, "publisher": {"id": domain, "name": publisher},
-                "topics": [], "papers": [], "_links": []})
+                "topics": [], "papers": [], "feed_urls": [], "_links": []})
+            if feed not in row['feed_urls']:
+                row['feed_urls'].append(feed)
             entry = {"id": stable_id(topic.lower()), "name": topic}
             if entry not in row['topics']:
                 row['topics'].append(entry)
@@ -71,7 +73,7 @@ def collect():
         'published_at': '2025-12-08',
         'publisher': {'id': 'news.stanford.edu', 'name': 'Stanford Report'},
         'topics': [{'id': stable_id('artificial intelligence'), 'name': 'Artificial intelligence'}],
-        'papers': [], '_links': ['https://doi.org/10.48550/arXiv.2511.16842']}
+        'papers': [], 'feed_urls': [], '_links': ['https://arxiv.org/abs/2511.16842']}
     return list(articles.values())
 
 
@@ -82,11 +84,13 @@ def enrich(articles, max_requests=30):
         for doi in row.pop('_links'):
             if doi not in cache and len(cache) < max_requests:
                 try:
-                    doc = json.loads(fetch('https://api.openalex.org/works/' + doi))
+                    arxiv_id = re.search(r'arxiv\.org/(?:abs|pdf)/(\d{4}\.\d{4,5})', doi, re.I)
+                    identifier = ('https://doi.org/10.48550/arXiv.' + arxiv_id.group(1)) if arxiv_id else doi
+                    doc = json.loads(fetch('https://api.openalex.org/works/' + identifier))
                     canonical = doc.get('doi') or doi
                     cache[doi] = {"id": stable_id(canonical.lower()), "url": canonical,
                                   "title": doc.get('display_name') or canonical,
-                                  "references": doc.get("referenced_works", []), "openalex_id": doc['id']}
+                                  "references": doc.get("referenced_works", []), "openalex_id": doc['id'], "linked_url": doi}
                 except (HTTPError, URLError, TimeoutError, ValueError, KeyError):
                     cache[doi] = None
                 time.sleep(0.1)
