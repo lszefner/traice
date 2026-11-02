@@ -91,7 +91,7 @@ The first script makes a temporary GDS Article–Topic projection, computes weak
 
 ## Guardrails and limitations
 
-The LLM chooses one of two fixed, parameterized query templates and a bounded search term. Only exact allowlisted query text is executed, in a read transaction with a timeout and result limit; unsupported, malformed or unsafe outputs are rejected. These controls reduce risk but do not make the model's interpretation infallible. Neo4j Community in this setup uses the configured privileged account, so this is **not** an independent database least-privilege boundary. The model may select the wrong supported template or search phrase. Review returned evidence and use the links to inspect the original material.
+The LLM chooses one of two fixed, parameterized query templates and a bounded search term. Only exact allowlisted query text is executed, in a read transaction with a timeout and result limit; unsupported, malformed or unsafe outputs are rejected. These controls reduce risk but do not make the model's interpretation infallible. Neo4j Community in this setup uses the configured privileged account, so this is **not** an independent database least-privilege boundary. The model may select the wrong supported template or search phrase, including for an unsupported request. Context and output are capped, so long inputs or truncated output can also be rejected or misunderstood. Review returned evidence and use the links to inspect the original material.
 
 ## Development
 
