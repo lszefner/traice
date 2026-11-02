@@ -26,7 +26,7 @@ def test_evidence_and_related_are_distinct():
     with TestClient(app) as client, patch("app.main.read") as read:
         read.return_value = [{"id": "a1", "papers": []}]
         assert client.get("/api/articles/a1/evidence").json()["data"][0]["papers"] == []
-        read.side_effect = [[{"id": "a1"}], [{"id": "a2", "connection": "shared_topic"}]]]
+        read.side_effect = [[{"id": "a1"}], [{"id": "a2", "connection": "shared_topic"}]]
         assert client.get("/api/articles/a1/related").json()["data"][0]["connection"] == "shared_topic"
 
 
