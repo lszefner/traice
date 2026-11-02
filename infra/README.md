@@ -5,3 +5,5 @@ Copy `.env.example` to `.env` and set a local Neo4j password of at least eight c
 For local development, `make install` prepares `.venv`, `make run` starts the API, and `make test` runs tests without requiring Neo4j. Use `make test-integration` when the integration prerequisites are running. `make lint` enforces Pylint 9.5. The API and database health checks are visible via `docker compose ps`.
 
 If the password in `.env` is changed after the database has initialized, updating the environment alone does not change its stored password. Change it through Neo4j instead, or deliberately delete the data volume only when the data is no longer needed.
+
+The natural-language feature expects an Ollama server reachable from the API container and the configured model already pulled. `.env.example` documents the host address and model. The rest of the stack can start without Ollama.
