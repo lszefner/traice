@@ -5067,6 +5067,947 @@
         }
       ],
       "feed_urls": []
+    },
+    {
+      "id": "c78dcfc221f6593a",
+      "url": "https://theconversation.com/ai-translation-sounds-convincing-but-it-can-be-riddled-with-hidden-errors-294686",
+      "title": "AI translation sounds convincing, but it can be riddled with hidden errors",
+      "published_at": "2026-11-02",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Alisa Tian, Associate Lecturer in Translation and Interpreting, School of Humanities & Languages, UNSW"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "2d08a680cc0b763e",
+      "url": "https://theconversation.com/why-it-could-be-a-bad-idea-to-get-ai-to-flirt-for-you-295274",
+      "title": "Why it could be a bad idea to get AI to flirt for you",
+      "published_at": "2026-10-30",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Ten-Herng Lai, Lecturer in Philosophy, University of Stirling",
+        "Alfred Archer, Assistant Professor, School of Humanities and Digital Sciences, Tilburg University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "201a7447f7978941",
+      "url": "https://theconversation.com/using-chatgpt-before-a-medical-appointment-how-to-get-the-best-support-for-your-health-questions-294051",
+      "title": "Using ChatGPT before a medical appointment? How to get the best support for your health questions",
+      "published_at": "2026-10-29",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Kirsten McCaffery, NHMRC Principal Research Fellow, Sydney School of Health, University of Sydney",
+        "Julie Ayre, Post Doctoral Research Fellow, Sydney Health Literacy Lab, University of Sydney",
+        "Liliana Laranjo, Senior Lecturer in Digital Health and Community and Primary Health Care Practice, University of Sydney"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "d28662d5bfcc6f21",
+      "url": "https://theconversation.com/the-uk-wants-ai-sovereignty-to-cut-its-reliance-on-foreign-tech-heres-how-that-can-be-achieved-295031",
+      "title": "The UK wants ‘AI sovereignty’ to cut its reliance on foreign tech – here’s how that can be achieved",
+      "published_at": "2026-10-29",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Vincent Charles, Professor of AI for Business and Management Science, Queen's University Belfast",
+        "Tatiana Gherman, Associate Professor of AI for Business and Strategy, University of Northampton"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "c8ccf433d187ae1f",
+      "url": "https://theconversation.com/driverless-18-wheelers-are-on-a-few-highways-but-widespread-use-is-a-long-way-down-the-road-291123",
+      "title": "Driverless 18-wheelers are on a few highways, but widespread use is a long way down the road",
+      "published_at": "2026-10-29",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Shannon Roberts, Associate Professor of Industrial Engineering, UMass Amherst"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "5c6ebeabf7b0a1f8",
+      "url": "https://theconversation.com/grok-can-launch-a-thousand-ships-but-this-ai-remake-of-the-odyssey-cant-make-us-feel-295340",
+      "title": "Grok can launch a thousand ships – but this AI remake of the Odyssey can’t make us feel",
+      "published_at": "2026-10-29",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Niusha Shafiabady, Professor in Computational Intelligence, Australian Catholic University",
+        "Theresa Dicke, Professor, Institute for Positive Psychology and Education, Australian Catholic University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "b470275b0a0888da",
+      "url": "https://theconversation.com/what-would-happen-if-the-internet-went-down-295249",
+      "title": "What would happen if the internet went down?",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Mahmoud Elkhodr, Senior Lecturer in Information and Communication Technologies, CQUniversity Australia"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "505c639010ecb633",
+      "url": "https://theconversation.com/france-three-overlapping-woes-are-fuelling-a-generation-of-discontent-295102",
+      "title": "France: three overlapping woes are fuelling a generation of discontent",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Jean-Philippe Bouilloud, Professeur d’organisation et de sociologie des sciences, ESCP Business School"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "0d065ef81356dffe",
+      "url": "https://theconversation.com/ai-may-quickly-generate-ideas-but-working-with-people-leads-to-more-creative-ones-292417",
+      "title": "AI may quickly generate ideas, but working with people leads to more creative ones",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Clin Lai, Postdoctoral Fellow in Artificial Intelligence and Society, Brandeis University",
+        "Roger Beaty, Associate Professor of Psychology, Penn State"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "f7cb2e2c1e4d33e8",
+      "url": "https://theconversation.com/what-is-artificial-general-intelligence-and-is-it-already-here-293600",
+      "title": "What is artificial general intelligence – and is it already here?",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Waqas Ali, Lecturer in Business Management and Research, Faculty of Arts, Business, and Social Sciences, University of Wolverhampton"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "cc4455b2be4781dd",
+      "url": "https://theconversation.com/people-are-using-ai-to-make-expensive-computer-programs-free-this-could-change-everything-294956",
+      "title": "People are using AI to make expensive computer programs free. This could change everything",
+      "published_at": "2026-10-28",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Dana McKay, Associate Dean, Interaction, Technology and Information, RMIT University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "20280b3938bd8d8f",
+      "url": "https://theconversation.com/most-new-zealanders-worry-about-ais-risks-even-as-many-expect-to-use-it-new-survey-294573",
+      "title": "Most New Zealanders worry about AI’s risks, even as many expect to use it – new survey",
+      "published_at": "2026-10-27",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "John Kerr, Senior Research Fellow, Department of Public Health, University of Otago",
+        "Karaitiana Taiuru, Māori AI and digital governance expert, Indigenous Knowledge"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "7546650728cb6346",
+      "url": "https://theconversation.com/ai-poses-three-big-types-of-risk-heres-how-worried-we-should-be-about-them-293848",
+      "title": "AI poses three big types of risk – here’s how worried we should be about them",
+      "published_at": "2026-10-27",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Nick Jennings, Vice-Chancellor and President, Loughborough University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "5d11f44ce7064e32",
+      "url": "https://theconversation.com/school-librarians-are-vanishing-from-michigan-schools-just-when-they-are-needed-most-291339",
+      "title": "School librarians are vanishing from Michigan schools just when they are needed most",
+      "published_at": "2026-10-27",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Shannon Oltmann, Associate Dean of Information Sciences, Wayne State University",
+        "Kafi Kumasi, Professor of Information Sciences, Wayne State University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [
+        {
+          "id": "d45667fe00de7007",
+          "url": "https://doi.org/10.1007/s40593-022-00304-3",
+          "title": "Lessons Learned for AI Education with Elementary Students and Teachers",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4295682021",
+          "linked_url": "https://doi.org/10.1007/s40593-022-00304-3",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "be737ee2819806a8",
+          "url": "https://doi.org/10.1080/0161956x.2023.2160112",
+          "title": "The School Librarian Equity Gap: Inequities Associated with Race and Ethnicity Compounded by Poverty, Locale, and Enrollment",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4313650056",
+          "linked_url": "https://doi.org/10.1080/0161956X.2023.2160112",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "d64dc0f9c5b39b67",
+          "url": "https://doi.org/10.1080/01930826.2020.1820278",
+          "title": "School Librarians as Literacy Educators Within a Complex Role",
+          "references": [],
+          "openalex_id": "https://openalex.org/W3088810671",
+          "linked_url": "https://doi.org/10.1080/01930826.2020.1820278",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "70f9d20aadab49f8",
+          "url": "https://doi.org/10.1080/01930826.2021.1924532",
+          "title": "Principals and Teachers’ Perspectives of Their School Libraries and Implications for School Library Policy",
+          "references": [
+            "d64dc0f9c5b39b67"
+          ],
+          "openalex_id": "https://openalex.org/W3174065134",
+          "linked_url": "https://doi.org/10.1080/01930826.2021.1924532",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "c6f921aa60bbd205",
+      "url": "https://theconversation.com/we-studied-1-584-data-centers-and-found-the-buildings-full-of-machines-are-tied-to-modest-local-job-growth-293872",
+      "title": "We studied 1,584 data centers – and found the buildings full of machines are tied to modest local job growth",
+      "published_at": "2026-10-27",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Simon Buechler, Assistant Professor of Finance, Miami University",
+        "Lyndsey Rolheiser, Professor of Urban and Real Estate Economics, York University, Canada"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "d8f11bc601365304",
+      "url": "https://theconversation.com/anthropics-record-us-2-trillion-stock-market-listing-highlights-the-growing-risks-for-all-of-us-295243",
+      "title": "Anthropic’s record US$2 trillion stock market listing highlights the growing risks for all of us",
+      "published_at": "2026-10-27",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Marta Khomyn, Senior Lecturer, Finance and Data Analytics, Adelaide University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "c8a325b213e67536",
+      "url": "https://theconversation.com/data-centers-are-inspiring-bipartisanship-for-now-293069",
+      "title": "Data centers are inspiring bipartisanship – for now",
+      "published_at": "2026-10-26",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Barbara A. Trish, Professor of Political Science, Grinnell College"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [
+        {
+          "id": "d02e67a8ee8c0659",
+          "url": "https://doi.org/10.1146/annurev-polisci-051117-073034",
+          "title": "The Origins and Consequences of Affective Polarization in the United States",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2904152473",
+          "linked_url": "https://doi.org/10.1146/annurev-polisci-051117-073034",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "9f6458df252faac5",
+          "url": "https://doi.org/10.1177/000312240807300605",
+          "title": "How Environmentalists “Greened” Trade Policy: Strategic Action and the Architecture of Field Overlap",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2017011993",
+          "linked_url": "https://doi.org/10.1177/000312240807300605",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "a46d084bbf66dba9",
+          "url": "https://doi.org/10.1177/0308518x251369704",
+          "title": "Geopolitical ecologies of cloud capitalism: Territorial restructuring and the making of national computing power in the U.S. and China",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4414634052",
+          "linked_url": "https://doi.org/10.1177/0308518X251369704",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "85a0330d1879f0e2",
+          "url": "https://doi.org/10.71468/p1rp4f",
+          "title": "United States Data Center Energy Usage Report: 2025 Update",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7164927410",
+          "linked_url": "https://doi.org/10.71468/P1RP4F",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "ac561a5d9b836f33",
+      "url": "https://theconversation.com/php-is-in-the-foundation-of-70-of-websites-heres-what-it-is-and-why-a-flaw-in-the-software-is-a-major-hacking-threat-294999",
+      "title": "PHP is in the foundation of 70% of websites – here’s what it is and why a flaw in the software is a major hacking threat",
+      "published_at": "2026-10-23",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Doug Jacobson, University Professor of Electrical and Computer Engineering, Iowa State University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "92280dcce9ccbfd4",
+      "url": "https://theconversation.com/friday-essay-ai-is-devastating-higher-education-but-the-system-was-already-broken-292988",
+      "title": "Friday essay: AI is devastating higher education, but the system was already broken",
+      "published_at": "2026-10-22",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Jeff Sparrow, Senior Lecturer, Centre for Advancing Journalism, The University of Melbourne"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "54a2ce45161b21d2",
+      "url": "https://theconversation.com/why-using-ai-saves-doctors-time-but-wont-fix-physician-burnout-291250",
+      "title": "Why using AI saves doctors time but won’t fix physician burnout",
+      "published_at": "2026-10-22",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Ali Abdalvand, Associate Professor of Emergency Medicine, University of British Columbia",
+        "Ehsan Etezad, Researcher, Applied Organizational Psychology, Saint Mary’s University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [
+        {
+          "id": "eb704b8cd7ccb379",
+          "url": "https://doi.org/10.1001/jama.2026.2253",
+          "title": "Changes in Clinician Time Expenditure and Visit Quantity With Adoption of Artificial Intelligence–Powered Scribes",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7146936748",
+          "linked_url": "https://doi.org/10.1001/jama.2026.2253",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "eb5d9dc0952d04df",
+          "url": "https://doi.org/10.1001/jamanetworkopen.2019.9609",
+          "title": "Association of Electronic Health Record Design and Use Factors With Clinician Stress and Burnout",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2968956882",
+          "linked_url": "https://doi.org/10.1001/jamanetworkopen.2019.9609",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "863d1a28bba88d97",
+          "url": "https://doi.org/10.1001/jamanetworkopen.2024.6565",
+          "title": "AI-Generated Draft Replies Integrated Into Health Records and Physicians’ Electronic Communication",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4394807113",
+          "linked_url": "https://doi.org/10.1001/jamanetworkopen.2024.6565",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "36e0f918f6315da3",
+          "url": "https://doi.org/10.1002/wps.20311",
+          "title": "Understanding the burnout experience: recent research and its implications for psychiatry",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2488757378",
+          "linked_url": "https://doi.org/10.1002/wps.20311",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "159a6572d202c892",
+          "url": "https://doi.org/10.1016/0005-1098(83)90046-8",
+          "title": "Ironies of automation",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2008653298",
+          "linked_url": "https://doi.org/10.1016/0005-1098(83)90046-8",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "1ab0284fd7603708",
+          "url": "https://doi.org/10.1080/1359432x.2014.979160",
+          "title": "Development and validation of an instrument for assessing job demands arising from accelerated change: The intensification of job demands scale (IDS)",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2120441503",
+          "linked_url": "https://doi.org/10.1080/1359432X.2014.979160",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "6ecad92c93f33e24",
+          "url": "https://doi.org/10.1136/bmjqs-2017-007333",
+          "title": "Task errors by emergency physicians are associated with interruptions, multitasking, fatigue and working memory capacity: a prospective, direct observation study",
+          "references": [],
+          "openalex_id": "https://openalex.org/W2783278280",
+          "linked_url": "https://doi.org/10.1136/bmjqs-2017-007333",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "3e25884dd767feff",
+          "url": "https://doi.org/10.2196/80417",
+          "title": "Digital Self-Guided Mental Health Interventions to Prevent Workplace Burnout and Enhance Psychological Wellness: Protocol for a Systematic Review",
+          "references": [
+            "36e0f918f6315da3"
+          ],
+          "openalex_id": "https://openalex.org/W4416660513",
+          "linked_url": "https://doi.org/10.2196/80417",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "7ecea2219d5d79f4",
+      "url": "https://theconversation.com/shares-in-this-data-centre-company-are-down-40-as-investors-lose-faith-in-the-ai-story-294871",
+      "title": "Shares in this data centre company are down 40% as investors lose faith in the AI story",
+      "published_at": "2026-10-22",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Andrew Cullen, Guest Research Fellow, School of Computing and Information Systems, The University of Melbourne"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "9713fd7d44305fec",
+      "url": "https://theconversation.com/a-critical-flaw-affecting-70-of-all-websites-has-the-cybersecurity-world-panicked-294941",
+      "title": "A critical flaw affecting 70% of all websites has the cybersecurity world panicked",
+      "published_at": "2026-10-22",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Andrew Cullen, Guest Research Fellow, School of Computing and Information Systems, The University of Melbourne"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "dc45e6c1d13a87fc",
+      "url": "https://theconversation.com/could-thoughtful-ai-art-counter-the-rise-of-ai-slop-why-creatives-today-face-a-paradox-294117",
+      "title": "Could thoughtful ‘AI art’ counter the rise of ‘AI slop’? Why creatives today face a paradox",
+      "published_at": "2026-10-21",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Sara Oscar, Senior Lecturer,  Visual Communication, School of Design, University of Technology Sydney"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "b74289d51de8dd0a",
+      "url": "https://theconversation.com/are-you-using-ai-to-study-heres-how-to-do-it-well-294453",
+      "title": "Are you using AI to study? Here’s how to do it well",
+      "published_at": "2026-10-21",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Luke Rowe, Lecturer and Researcher (Science of Learning), Australian Catholic University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [
+        {
+          "id": "ea173860466f2c7b",
+          "url": "https://doi.org/10.1007/s10648-026-10118-7",
+          "title": "Think First, ChatGPT Later: Guiding Human–AI Collaboration for Learning Gains in Independent Human Creativity",
+          "references": [
+            "159a6572d202c892",
+            "baa87f77c239f841"
+          ],
+          "openalex_id": "https://openalex.org/W7154447070",
+          "linked_url": "https://doi.org/10.1007/s10648-026-10118-7",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "017e1ff9222e3fab",
+          "url": "https://doi.org/10.1016/j.caeo.2025.100300",
+          "title": "Teacher, peer, or AI? Comparing effects of feedback sources in higher education",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4415317129",
+          "linked_url": "https://doi.org/10.1016/j.caeo.2025.100300",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "baa87f77c239f841",
+          "url": "https://doi.org/10.1016/j.compedu.2024.105224",
+          "title": "Does ChatGPT enhance student learning? A systematic review and meta-analysis of experimental studies",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4405318562",
+          "linked_url": "https://doi.org/10.1016/j.compedu.2024.105224",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "df7cf49e8a02c10a",
+          "url": "https://doi.org/10.1016/j.compedu.2026.105701",
+          "title": "Color me confounded: A critical analysis of media comparisons on ChatGPT in education",
+          "references": [
+            "baa87f77c239f841"
+          ],
+          "openalex_id": "https://openalex.org/W7165768553",
+          "linked_url": "https://doi.org/10.1016/j.compedu.2026.105701",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "fc3c6728ea8ccfe5",
+          "url": "https://doi.org/10.1016/j.lindif.2025.102761",
+          "title": "Differential use and effectiveness of practice testing: Who benefits and who engages?",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4412938220",
+          "linked_url": "https://doi.org/10.1016/j.lindif.2025.102761",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "434ac329f049b574",
+          "url": "https://doi.org/10.1016/j.tics.2016.07.002",
+          "title": "Cognitive Offloading",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4243906228",
+          "linked_url": "https://doi.org/10.1016/j.tics.2016.07.002",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "ecd5c00b1267ed2c",
+          "url": "https://doi.org/10.1073/pnas.2422633122",
+          "title": "Generative AI without guardrails can harm learning: Evidence from high school mathematics",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4411627694",
+          "linked_url": "https://doi.org/10.1073/pnas.2422633122",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "93dfbc568f95a038",
+          "url": "https://doi.org/10.1080/0144929x.2024.2394886",
+          "title": "The promise and challenges of generative AI in education",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4402128637",
+          "linked_url": "https://doi.org/10.1080/0144929X.2024.2394886",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "183bc4bb29ffe326",
+          "url": "https://doi.org/10.1080/10494820.2025.2545053",
+          "title": "Developing intelligent-TPACK (I-TPACK) framework from unpacking AI literacy and competency: implementation strategies and future research direction",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4413813702",
+          "linked_url": "https://doi.org/10.1080/10494820.2025.2545053",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "2c18bcc36cfa7b22",
+          "url": "https://doi.org/10.2139/ssrn.6868618",
+          "title": "The Generative AI Learning Penalty: Evidence from Chinese Secondary Education",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7165656472",
+          "linked_url": "https://doi.org/10.2139/ssrn.6868618",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "f6604be1f30882ff",
+          "url": "https://doi.org/10.30564/fls.v7i7.10072",
+          "title": "Cognitive Offload Instruction with Generative AI: A Quasi‑Experimental Study on Critical Thinking Gains in English Writing",
+          "references": [
+            "434ac329f049b574",
+            "d7a2f6299e2b2b1d"
+          ],
+          "openalex_id": "https://openalex.org/W4412470053",
+          "linked_url": "https://doi.org/10.30564/fls.v7i7.10072",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "3b0abee102046449",
+          "url": "https://doi.org/10.3102/00346543050002315",
+          "title": "Cooperative Learning",
+          "references": [],
+          "openalex_id": "https://openalex.org/W4254321627",
+          "linked_url": "https://doi.org/10.3102/00346543050002315",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "eea459e13a219ea0",
+          "url": "https://doi.org/10.3390/educsci16081291",
+          "title": "From Gradual Release of Responsibility to Gradual Release of Technology: A Case for the Staged Use of AI in Formal Education",
+          "references": [],
+          "openalex_id": "https://openalex.org/W7155538205",
+          "linked_url": "https://doi.org/10.3390/educsci16081291",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        },
+        {
+          "id": "d7a2f6299e2b2b1d",
+          "url": "https://doi.org/10.3390/soc15010006",
+          "title": "AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking",
+          "references": [
+            "434ac329f049b574"
+          ],
+          "openalex_id": "https://openalex.org/W4406026056",
+          "linked_url": "https://doi.org/10.3390/soc15010006",
+          "linked_feed_urls": [
+            "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+          ]
+        }
+      ],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    },
+    {
+      "id": "5ed16ce72e1b57ad",
+      "url": "https://theconversation.com/an-ai-models-false-tip-to-philadelphia-police-reveals-how-digital-agents-can-do-as-theyre-told-and-still-cause-trouble-294228",
+      "title": "An AI model’s false tip to Philadelphia police reveals how digital agents can do as they’re told and still cause trouble",
+      "published_at": "2026-10-21",
+      "publisher": {
+        "id": "theconversation.com",
+        "name": "The Conversation"
+      },
+      "authors": [
+        "Anat Lior, Assistant Professor of Law, Drexel University"
+      ],
+      "topics": [
+        {
+          "id": "803b3eb2b6af0271",
+          "name": "Artificial intelligence"
+        }
+      ],
+      "papers": [],
+      "feed_urls": [
+        "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom"
+      ]
+    }
+  ],
+  "additional_snapshots": [
+    {
+      "feed": "https://theconversation.com/topics/artificial-intelligence-ai-90/articles.atom",
+      "collected_at": "2026-11-02T12:38:17.660077+00:00",
+      "articles_added": 25,
+      "with_paper_links": 4
     }
   ]
 }
