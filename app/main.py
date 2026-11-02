@@ -155,3 +155,33 @@ def connections(topic_id: str, request: Request, limit: int = Query(20, ge=1, le
             limit=limit,
         )
     )
+
+
+class AskRequest(BaseModel):
+    """A supported natural-language question about the evidence graph."""
+
+    question: str
+
+
+class AskResponse(BaseModel):
+    """The validated query, its parameters and the evidence returned."""
+
+    query: str
+    parameters: dict[str, Any]
+    evidence: list[dict[str, Any]]
+
+
+@app.post("/api/ask", response_model=AskResponse)
+def ask_question(body: AskRequest, request: Request) -> AskResponse:
+    """Select and validate a supported Cypher query using a local language model."""
+    from app.ai import ModelUnavailable, RejectedQuery, ask  # pylint: disable=import-outside-toplevel
+
+    try:
+        answer = ask(body.question, lambda query, parameters: read(request, query, **parameters))
+    except RejectedQuery as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    except ModelUnavailable as exc:
+        raise HTTPException(status_code=503, detail=str(exc)) from exc
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from exc
+    return AskResponse(**answer)

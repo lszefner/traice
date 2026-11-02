@@ -36,3 +36,20 @@ def test_unknown_paper_and_topic():
     with TestClient(app) as client, patch("app.main.read", return_value=[]):
         assert client.get("/api/papers/missing/coverage").status_code == 404
         assert client.get("/api/topics/missing/connections").status_code == 404
+
+
+def test_ask_success_and_rejected_query():
+    """Model output passes the actual validator before any graph query runs."""
+    import io
+    import json
+
+    def response(template, search):
+        return io.BytesIO(json.dumps({"response": json.dumps({"template": template, "search": search})}).encode())
+
+    with TestClient(app) as client, patch("app.main.read", return_value=[]) as read:
+        with patch("urllib.request.urlopen", return_value=response("articles_by_topic", "AI")):
+            assert client.post("/api/ask", json={"question": "AI papers"}).status_code == 200
+            assert read.call_count == 1
+        with patch("urllib.request.urlopen", return_value=response("MATCH (n) DELETE n", "AI")):
+            assert client.post("/api/ask", json={"question": "Delete everything"}).status_code == 422
+            assert read.call_count == 1
