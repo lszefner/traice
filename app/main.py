@@ -185,3 +185,46 @@ def ask_question(body: AskRequest, request: Request) -> AskResponse:
     except ValueError as exc:
         raise HTTPException(status_code=422, detail=str(exc)) from exc
     return AskResponse(**answer)
+
+
+def find_path(request: Request, article_id: str, target_id: str, target_label: str) -> Result:
+    """Find one shortest bounded path, preserving actual edge direction and provenance."""
+    # The label is selected by the endpoint, never supplied as query text by a client.
+    if target_label not in ("Article", "Paper"):
+        raise ValueError("Unsupported target label")
+    if target_label == "Article" and article_id == target_id:
+        raise HTTPException(status_code=422, detail="Choose two different articles")
+    cypher = """
+        MATCH (start:Article {id: $start_id})
+        MATCH (target:TARGET_LABEL {id: $target_id})
+        OPTIONAL MATCH path = shortestPath((start)-[:HAS_TOPIC|REFERENCES*1..4]-(target))
+        RETURN CASE WHEN path IS NULL THEN null ELSE
+            [node IN nodes(path) | {id: node.id, labels: labels(node),
+              title: node.title, name: node.name, url: node.url}] END AS nodes,
+            CASE WHEN path IS NULL THEN null ELSE
+            [rel IN relationships(path) | {type: type(rel),
+              from_id: startNode(rel).id, to_id: endNode(rel).id,
+              source_url: rel.source_url, method: rel.method}] END AS relationships
+    """.replace("TARGET_LABEL", target_label)
+    rows = read(request, cypher, start_id=article_id, target_id=target_id)
+    if not rows:
+        raise HTTPException(status_code=404, detail="Article or target not found")
+    if rows[0]["nodes"] is None:
+        return Result(data=[])
+    rows[0]["interpretation"] = (
+        "A path shows recorded connections, not proof that articles report the same event "
+        "or that claims are true."
+    )
+    return Result(data=rows)
+
+
+@app.get("/api/articles/{article_id}/paths/articles/{other_id}", response_model=Result)
+def article_path(article_id: str, other_id: str, request: Request) -> Result:
+    """Find a shortest path between distinct articles in at most four edges."""
+    return find_path(request, article_id, other_id, "Article")
+
+
+@app.get("/api/articles/{article_id}/paths/papers/{paper_id}", response_model=Result)
+def article_paper_path(article_id: str, paper_id: str, request: Request) -> Result:
+    """Find a shortest path from an article to a paper in at most four edges."""
+    return find_path(request, article_id, paper_id, "Paper")
