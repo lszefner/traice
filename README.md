@@ -40,6 +40,8 @@ For the natural-language feature, install and start [Ollama](https://ollama.com/
 | `GET /api/articles/{id}/related` | Stories connected by shared feed topics |
 | `GET /api/papers/{id}/coverage` | Articles with paper-reference edges |
 | `GET /api/topics/{id}/connections` | Bounded article–topic–article paths |
+| `GET /api/articles/{id}/paths/articles/{other_id}` | Bounded path between two articles |
+| `GET /api/articles/{id}/paths/papers/{paper_id}` | Bounded path from an article to a paper |
 | `POST /api/ask` | Supported questions to validated queries and structured evidence |
 
 IDs and response examples are available from `/api/articles` and `/docs`. Queries use parameters and explicit limits; the API returns 404 for unknown article, topic or paper IDs and 503 for database or model failures.
@@ -74,7 +76,7 @@ flowchart LR
     G --> D
 ```
 
-The collector builds a dated metadata snapshot from selected feeds and OpenAlex, plus a manually checked example. Feed-derived links are not the same as a manual verification of the article page. See [data/README.md](data/README.md) for sources, collection rules and limits. The snapshot is a convenience sample, not representative coverage, and redistribution terms need review before wider distribution.
+The snapshot contains 257 articles from ScienceDaily (150), MIT News (81), The Conversation (25), and Stanford Report (1); 16 articles have at least one resolved paper link. It combines feed snapshots collected on 2026-11-02 UTC, OpenAlex metadata, and a manually checked example. Feed-derived links are not the same as a manual verification of the article page. See [data/README.md](data/README.md) for sources, collection rules and limits. The snapshot is a convenience sample, not representative coverage, and redistribution terms need review before wider distribution.
 
 ## Graph algorithms and ML
 
