@@ -2,7 +2,7 @@
 
 **Trace AI news back to its research.** Traice is a Level 2 graph-engineering project that connects AI articles, publishers, topics and linked research papers. Browse an article, follow its evidence and explore related coverage; ask a supported natural-language question and inspect the Cypher and evidence returned.
 
-[![CI](https://github.com/lszefner/moviegraph/actions/workflows/ci.yml/badge.svg)](https://github.com/lszefner/moviegraph/actions/workflows/ci.yml)
+[![CI](https://github.com/lszefner/traice/actions/workflows/ci.yml/badge.svg)](https://github.com/lszefner/traice/actions/workflows/ci.yml)
 
 Traice is an educational demo, not a fact-checker. A linked paper does not verify every claim in an article; a shared feed topic does not mean articles cover the same event. No paper found means none was resolved in this snapshot, not that no paper exists.
 
