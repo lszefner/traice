@@ -36,3 +36,16 @@ def test_unknown_paper_and_topic():
     with TestClient(app) as client, patch("app.main.read", return_value=[]):
         assert client.get("/api/papers/missing/coverage").status_code == 404
         assert client.get("/api/topics/missing/connections").status_code == 404
+
+
+def test_ask_success_and_rejected_query():
+    """The API returns evidence or rejects unsupported generated output."""
+    from app.ai import ARTICLES_BY_TOPIC, RejectedQuery
+
+    with TestClient(app) as client, patch("app.ai.generate"):
+        with patch("app.main.read", return_value=[{"article": "A", "paper": "P"}]), patch(
+            "app.ai.ask", return_value={"query": ARTICLES_BY_TOPIC, "parameters": {"search": "AI"}, "evidence": []}
+        ):
+            assert client.post("/api/ask", json={"question": "AI papers"}).status_code == 200
+        with patch("app.ai.ask", side_effect=RejectedQuery("Not allowed")):
+            assert client.post("/api/ask", json={"question": "Delete everything"}).status_code == 422
