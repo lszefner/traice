@@ -9,15 +9,19 @@ ARTICLES_BY_TOPIC = (
     "MATCH (a:Article)-[:HAS_TOPIC]->(t:Topic) "
     "MATCH (a)-[r:REFERENCES]->(p:Paper) "
     "WHERE toLower(t.name) CONTAINS toLower($search) "
-    "RETURN DISTINCT a.title AS article, a.url AS article_url, "
-    "p.title AS paper, p.url AS paper_url, r.source_url AS evidence_url, r.linked_url AS linked_url, r.feed_urls AS feed_urls, r.method AS method "
+    "RETURN DISTINCT a.title AS article, a.url AS article_url, a.authors AS authors, "
+    "[(a)-[:PUBLISHED_BY]->(publisher:Publisher) | publisher.name] AS publishers, "
+    "p.title AS paper, p.url AS paper_url, r.source_url AS evidence_url, "
+    "r.linked_url AS linked_url, r.feed_urls AS feed_urls, r.method AS method "
     "LIMIT 20"
 )
 PAPERS_BY_ARTICLE = (
     "MATCH (a:Article)-[r:REFERENCES]->(p:Paper) "
     "WHERE toLower(a.title) CONTAINS toLower($search) "
-    "RETURN DISTINCT a.title AS article, a.url AS article_url, "
-    "p.title AS paper, p.url AS paper_url, r.source_url AS evidence_url, r.linked_url AS linked_url, r.feed_urls AS feed_urls, r.method AS method "
+    "RETURN DISTINCT a.title AS article, a.url AS article_url, a.authors AS authors, "
+    "[(a)-[:PUBLISHED_BY]->(publisher:Publisher) | publisher.name] AS publishers, "
+    "p.title AS paper, p.url AS paper_url, r.source_url AS evidence_url, "
+    "r.linked_url AS linked_url, r.feed_urls AS feed_urls, r.method AS method "
     "LIMIT 20"
 )
 TEMPLATES = {"articles_by_topic": ARTICLES_BY_TOPIC, "papers_by_article": PAPERS_BY_ARTICLE}

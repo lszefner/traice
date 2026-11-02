@@ -59,7 +59,7 @@ def articles(request: Request, limit: int = Query(20, ge=1, le=100), offset: int
             """
         MATCH (a:Article)-[:PUBLISHED_BY]->(p:Publisher)
         RETURN a.id AS id, a.title AS title, a.url AS url,
-               a.published_at AS published_at, p.name AS publisher
+               a.published_at AS published_at, a.authors AS authors, p.name AS publisher
         ORDER BY published_at DESC, id SKIP $offset LIMIT $limit
     """,
             limit=limit,
@@ -79,10 +79,11 @@ def evidence(article_id: str, request: Request) -> Result:
         WITH a, publisher, collect(DISTINCT topic.name) AS topics
         OPTIONAL MATCH (a)-[ref:REFERENCES]->(paper:Paper)
         RETURN a.id AS id, a.title AS title, a.url AS url, a.published_at AS published_at,
-               publisher.name AS publisher, topics,
+               publisher.name AS publisher, a.authors AS authors, topics,
                collect(DISTINCT CASE WHEN paper IS NULL THEN null ELSE
                    {id: paper.id, title: paper.title, url: paper.url,
-                    source_url: ref.source_url, linked_url: ref.linked_url, feed_urls: ref.feed_urls, method: ref.method} END) AS papers
+                    source_url: ref.source_url, linked_url: ref.linked_url,
+                    feed_urls: ref.feed_urls, method: ref.method} END) AS papers
     """,
         id=article_id,
     )
@@ -101,9 +102,11 @@ def related(article_id: str, request: Request, limit: int = Query(10, ge=1, le=5
             request,
             """
         MATCH (a:Article {id:$id})-[:HAS_TOPIC]->(t:Topic)<-[:HAS_TOPIC]-(other:Article)
+        MATCH (other)-[:PUBLISHED_BY]->(publisher:Publisher)
         WHERE other <> a
-        WITH other, collect(DISTINCT t.name) AS shared_topics
-        RETURN other.id AS id, other.title AS title, other.url AS url, shared_topics,
+        WITH other, publisher, collect(DISTINCT t.name) AS shared_topics
+        RETURN other.id AS id, other.title AS title, other.url AS url, other.authors AS authors,
+               publisher.name AS publisher, shared_topics,
                size(shared_topics) AS score, 'shared_topic' AS connection
         ORDER BY score DESC, id LIMIT $limit
     """,
@@ -124,7 +127,7 @@ def coverage(paper_id: str, request: Request, limit: int = Query(20, ge=1, le=50
             """
         MATCH (a:Article)-[r:REFERENCES]->(p:Paper {id:$id})
         MATCH (a)-[:PUBLISHED_BY]->(publisher:Publisher)
-        RETURN a.id AS id, a.title AS title, a.url AS url, publisher.name AS publisher,
+        RETURN a.id AS id, a.title AS title, a.url AS url, a.authors AS authors, publisher.name AS publisher,
                r.source_url AS source_url, r.linked_url AS linked_url, r.feed_urls AS feed_urls, r.method AS method
         ORDER BY a.published_at DESC, id LIMIT $limit
     """,
@@ -147,8 +150,10 @@ def connections(topic_id: str, request: Request, limit: int = Query(20, ge=1, le
         WITH t, a ORDER BY a.id LIMIT 100
         MATCH (t)<-[:HAS_TOPIC]-(b:Article)
         WHERE a.id < b.id
-        RETURN a.id AS from_id, a.title AS from_title, t.name AS topic,
-               b.id AS to_id, b.title AS to_title, 'shared_topic' AS connection
+        RETURN a.id AS from_id, a.title AS from_title, a.url AS from_url, a.authors AS from_authors,
+               [(a)-[:PUBLISHED_BY]->(ap:Publisher) | ap.name] AS from_publishers, t.name AS topic,
+               b.id AS to_id, b.title AS to_title, b.url AS to_url, b.authors AS to_authors,
+               [(b)-[:PUBLISHED_BY]->(bp:Publisher) | bp.name] AS to_publishers, 'shared_topic' AS connection
         ORDER BY from_id, to_id LIMIT $limit
     """,
             id=topic_id,
@@ -200,7 +205,8 @@ def find_path(request: Request, article_id: str, target_id: str, target_label: s
         OPTIONAL MATCH path = shortestPath((start)-[:HAS_TOPIC|REFERENCES*1..4]-(target))
         RETURN CASE WHEN path IS NULL THEN null ELSE
             [node IN nodes(path) | {id: node.id, labels: labels(node),
-              title: node.title, name: node.name, url: node.url}] END AS nodes,
+              title: node.title, name: node.name, url: node.url, authors: node.authors,
+              publishers: [(node)-[:PUBLISHED_BY]->(pub:Publisher) | pub.name]}] END AS nodes,
             CASE WHEN path IS NULL THEN null ELSE
             [rel IN relationships(path) | {type: type(rel),
               from_id: startNode(rel).id, to_id: endNode(rel).id,
