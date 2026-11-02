@@ -1,0 +1,40 @@
+name: Publish API image
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'app/**'
+      - 'requirements.txt'
+      - 'Dockerfile.public'
+      - 'Dockerfile.public.dockerignore'
+      - '.github/workflows/publish-image.yml'
+permissions:
+  contents: read
+  packages: write
+jobs:
+  publish:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set image name
+        id: image
+        run: echo "name=ghcr.io/${GITHUB_REPOSITORY_OWNER,,}/traice-api" >> "$GITHUB_OUTPUT"
+      - uses: docker/login-action@v3
+        with:
+          registry: ghcr.io
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build image
+        run: |
+          docker build --file Dockerfile.public \
+            --tag "${{ steps.image.outputs.name }}:latest" \
+            --tag "${{ steps.image.outputs.name }}:${GITHUB_SHA}" .
+      - name: Check image contents
+        run: |
+          docker run --rm --entrypoint python "${{ steps.image.outputs.name }}:${GITHUB_SHA}" -c "from pathlib import Path; p = Path('/app'); assert {x.name for x in p.iterdir()} == {'app', 'requirements.txt'}; assert all(x.suffix == '.py' for x in (p / 'app').rglob('*') if x.is_file()); from app.main import app; assert app.routes"
+      - name: Publish image
+        run: |
+          docker push "${{ steps.image.outputs.name }}:latest"
+          docker push "${{ steps.image.outputs.name }}:${GITHUB_SHA}"
